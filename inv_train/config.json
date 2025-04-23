@@ -1,0 +1,9 @@
+{
+    "input_pdf": "../sample_invoices/iabe/iabe.pdf",
+    "input_json": "convert.json",
+    "output_dir": "templates/pdfs",
+    "log_file": "template_service.log",
+    "pdf_output_dir": "../templates/pdfs/",       
+    "json_output_dir": "../templates/jsons/"
+  }
+  

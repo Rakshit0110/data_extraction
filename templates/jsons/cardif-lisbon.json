@@ -1,0 +1,23 @@
+{
+    "Date": {
+        "Distance": 50.4,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line",
+        "key": "Date:"
+    },
+    "IBAN": {
+        "Distance": 22.51,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line",
+        "key": "IBAN:"
+    },
+    "Invoice Number": {
+        "Distance": 56.76,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line",
+        "key": "Nr."
+    }
+}

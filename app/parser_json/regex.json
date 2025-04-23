@@ -1,0 +1,48 @@
+
+
+
+{
+    "bcc_nl": "^.{8}",
+    "iban_nl": "^.{18}",
+    "tva_nl": "^.{11}",
+    "btw_nl": "^.{11}",
+    
+    "bcc_fr": "^.{8}",
+    "iban_fr": "^.{27}",
+    "tva_fr": "^.{11}",
+    "btw_fr": "^.{13}",
+    
+
+
+
+    
+    "bcc_be": "^.{8}",
+    "iban_be": "^.{16}",
+    "tva_be": "^.{11}",
+    "btw_be": "^.{11}",
+
+
+
+  "dd/mm/yyyy": "^\\d{2}/\\d{2}/\\d{4}",
+  "mm/dd/yyyy": "^\\d{2}/\\d{2}/\\d{4}",
+  "yyyy/mm/dd": "^\\d{4}/\\d{2}/\\d{2}",
+  "yyyy/dd/mm": "^\\d{4}/\\d{2}/\\d{2}",
+  "dd.mm.yyyy": "^\\d{2}\\.\\d{2}\\.\\d{4}",
+  "mm.dd.yyyy": "^\\d{2}\\.\\d{2}\\.\\d{4}",
+  "yyyy.mm.dd": "^\\d{4}\\.\\d{2}\\.\\d{2}",
+  "yyyy.dd.mm": "^\\d{4}\\.\\d{2}\\.\\d{2}",
+  "dd/mm/yy": "^\\d{2}/\\d{2}/\\d{2}",
+  "mm/dd/yy": "^\\d{2}/\\d{2}/\\d{2}",
+  "yy/mm/dd": "^\\d{2}/\\d{2}/\\d{2}",
+  "yy/dd/mm": "^\\d{2}/\\d{2}/\\d{2}",
+  "dd.mm.yy": "^\\d{2}\\.\\d{2}\\.\\d{2}",
+  "mm.dd.yy": "^\\d{2}\\.\\d{2}\\.\\d{2}",
+  "yy.mm.dd": "^\\d{2}\\.\\d{2}\\.\\d{2}",
+  "yy.dd.mm": "^\\d{2}\\.\\d{2}\\.\\d{2}",
+  "dd_french_months_yyyy": "^\\d{2} (janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre) \\d{4}",
+  "french_months_dd_yyyy": "^(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre) \\d{2}, \\d{4}",
+  "dd_dutch_months_yyyy": "^\\d{2} (januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december) \\d{4}",
+  "dutch_months_dd_yyyy": "^(januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december) \\d{2}, \\d{4}"
+  }
+
+  

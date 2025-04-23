@@ -1,0 +1,65 @@
+{
+    "key 1 and val 1": {
+        "key":"Nr.",
+        "size":"single line",
+        "Distance": 206.61,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 2 and val 2": {
+        "key":"CARDIF ASSURANCE VIE",
+        "size":"multi line",
+        "Distance": 68.04,
+        "Direction": "Down",
+        "Approach": "Top"
+    },
+    "key 3 and val 3": {
+        "key":"IBAN:",
+        "size":"single line",
+        "Distance": 112.32,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 4 and val 4": {
+        "key":"Swift",
+        "size":"single line",
+        "Distance": 105.05,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 5 and val 5": {
+        "key":"Client Nr.:",
+        "size":"single line",
+        "Distance": 367.2,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 6 and val 6": {
+        "key":"TIN",
+        "size":"single line",
+        "Distance": 91.8,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 7 and val 7": {
+        "key":"Date Due",
+        "size":"single line",
+        "Distance": 214.22,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 8 and val 8": {
+        "key":"Date:",
+        "size":"single line",
+        "Distance": 154.35,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 9 and val 9": {
+        "key":"TOTAL:",
+        "size":"single line",
+        "Distance": 336.64,
+        "Direction": "Right",
+        "Approach": "Down"
+    }
+}

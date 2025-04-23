@@ -1,0 +1,116 @@
+2025-04-23 16:10:55,417 INFO: Extracting keys from PDF.
+2025-04-23 16:10:55,470 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 16:10:55,478 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 16:10:55,488 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 16:10:55,488 INFO: Generating template data.
+2025-04-23 16:10:55,488 INFO: Processed relationships and generated final template.
+2025-04-23 16:10:55,488 INFO: Saving outputs.
+2025-04-23 17:13:22,021 INFO: Extracting keys from PDF.
+2025-04-23 17:13:22,058 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 17:13:22,079 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 17:13:22,090 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 17:13:22,090 INFO: Generating template data.
+2025-04-23 17:13:22,090 INFO: Processed relationships and generated final template.
+2025-04-23 17:13:22,090 INFO: Saving outputs.
+2025-04-23 17:25:45,461 INFO: Extracting keys from PDF.
+2025-04-23 17:25:45,535 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 17:25:45,551 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 17:25:45,564 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 17:25:45,566 INFO: Generating template data.
+2025-04-23 17:25:45,566 INFO: Processed relationships and generated final template.
+2025-04-23 17:25:45,566 INFO: Saving outputs.
+2025-04-23 18:06:27,040 INFO: Extracting keys from PDF.
+2025-04-23 18:06:27,095 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:06:27,110 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:06:27,133 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:06:27,133 INFO: Generating template data.
+2025-04-23 18:06:27,133 INFO: Processed relationships and generated final template.
+2025-04-23 18:06:27,142 INFO: Saving outputs.
+2025-04-23 18:07:45,086 INFO: Extracting keys from PDF.
+2025-04-23 18:07:45,138 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:07:45,154 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:07:45,159 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:07:45,159 INFO: Generating template data.
+2025-04-23 18:07:45,159 INFO: Processed relationships and generated final template.
+2025-04-23 18:07:45,159 INFO: Saving outputs.
+2025-04-23 18:12:55,237 INFO: Extracting keys from PDF.
+2025-04-23 18:12:55,272 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:12:55,288 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:12:55,288 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:12:55,288 INFO: Generating template data.
+2025-04-23 18:12:55,288 INFO: Processed relationships and generated final template.
+2025-04-23 18:12:55,288 INFO: Saving outputs.
+2025-04-23 18:15:06,669 INFO: Extracting keys from PDF.
+2025-04-23 18:15:06,731 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:15:06,748 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:15:06,770 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:15:06,772 INFO: Generating template data.
+2025-04-23 18:15:06,772 INFO: Processed relationships and generated final template.
+2025-04-23 18:15:06,772 INFO: Saving outputs.
+2025-04-23 18:17:42,493 INFO: Extracting keys from PDF.
+2025-04-23 18:17:42,556 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:17:42,582 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:17:42,602 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:17:42,602 INFO: Generating template data.
+2025-04-23 18:17:42,602 INFO: Processed relationships and generated final template.
+2025-04-23 18:17:42,604 INFO: Saving outputs.
+2025-04-23 18:18:30,514 INFO: Extracting keys from PDF.
+2025-04-23 18:18:30,610 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:18:30,637 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:18:30,654 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:18:30,654 INFO: Generating template data.
+2025-04-23 18:18:30,654 INFO: Processed relationships and generated final template.
+2025-04-23 18:18:30,654 INFO: Setting final_json['Date']['key'] = 'Date:'
+2025-04-23 18:18:30,654 INFO: Setting final_json['IBAN']['key'] = 'IBAN:'
+2025-04-23 18:18:30,654 INFO: Setting final_json['Invoice Number']['key'] = 'Nr.'
+2025-04-23 18:18:30,654 INFO: Saving outputs.
+2025-04-23 18:30:18,046 INFO: Extracting keys from PDF.
+2025-04-23 18:30:18,083 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:30:18,083 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:30:18,099 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:30:18,099 INFO: Generating template data.
+2025-04-23 18:30:18,099 INFO: Processed relationships and generated final template.
+2025-04-23 18:30:18,099 INFO: Setting final_json['Date']['key'] = 'Date:'
+2025-04-23 18:30:18,099 INFO: Setting final_json['IBAN']['key'] = 'IBAN:'
+2025-04-23 18:30:18,099 INFO: Setting final_json['Invoice Number']['key'] = 'Nr.'
+2025-04-23 18:30:18,099 INFO: Saving outputs.
+2025-04-23 18:30:35,992 INFO: Extracting keys from PDF.
+2025-04-23 18:30:36,024 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:30:36,040 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:30:36,040 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:30:36,040 INFO: Generating template data.
+2025-04-23 18:30:36,040 INFO: Processed relationships and generated final template.
+2025-04-23 18:30:36,040 INFO: Setting final_json['Date']['key'] = 'Date:'
+2025-04-23 18:30:36,040 INFO: Setting final_json['IBAN']['key'] = 'IBAN:'
+2025-04-23 18:30:36,040 INFO: Setting final_json['Invoice Number']['key'] = 'Nr.'
+2025-04-23 18:30:36,040 INFO: Saving outputs.
+2025-04-23 18:30:56,969 INFO: Extracting keys from PDF.
+2025-04-23 18:30:57,004 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:30:57,016 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:30:57,025 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:30:57,025 INFO: Generating template data.
+2025-04-23 18:30:57,025 INFO: Processed relationships and generated final template.
+2025-04-23 18:30:57,025 INFO: Setting final_json['Date']['key'] = 'Date:'
+2025-04-23 18:30:57,025 INFO: Setting final_json['IBAN']['key'] = 'IBAN:'
+2025-04-23 18:30:57,025 INFO: Setting final_json['Invoice Number']['key'] = 'Nr.'
+2025-04-23 18:30:57,025 INFO: Saving outputs.
+2025-04-23 18:38:29,240 INFO: Extracting keys from PDF.
+2025-04-23 18:38:29,285 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:38:29,287 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:38:29,298 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:38:29,303 INFO: Generating template data.
+2025-04-23 18:38:29,303 INFO: Processed relationships and generated final template.
+2025-04-23 18:38:29,303 INFO: Setting final_json['Date']['key'] = 'Date:'
+2025-04-23 18:38:29,303 INFO: Setting final_json['IBAN']['key'] = 'IBAN:'
+2025-04-23 18:38:29,303 INFO: Setting final_json['Invoice Number']['key'] = 'Nr.'
+2025-04-23 18:38:29,303 INFO: Saving outputs.
+2025-04-23 18:42:35,973 INFO: Extracting keys from PDF.
+2025-04-23 18:42:36,105 INFO: Extracted key 'Date KEY': Date:
+2025-04-23 18:42:36,141 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-23 18:42:36,178 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-23 18:42:36,178 INFO: Generating template data.
+2025-04-23 18:42:36,186 INFO: Processed relationships and generated final template.
+2025-04-23 18:42:36,186 INFO: Setting final_json['Date']['key'] = 'Date:'
+2025-04-23 18:42:36,186 INFO: Setting final_json['IBAN']['key'] = 'IBAN:'
+2025-04-23 18:42:36,186 INFO: Setting final_json['Invoice Number']['key'] = 'Nr.'
+2025-04-23 18:42:36,186 INFO: Saving outputs.

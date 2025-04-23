@@ -1,0 +1,22 @@
+2025-04-22 13:11:54,699 - INFO - Compared ../sample_invoices/arval/arval.pdf and templates\cardif-lisbon.pdf. Similarity: 0.01
+2025-04-22 13:11:54,728 - INFO - Compared ../sample_invoices/arval/arval.pdf and templates\unit.pdf. Similarity: 0.01
+2025-04-22 13:11:54,728 - INFO - Moved ../sample_invoices/arval/arval.pdf to ../files/unprocessed
+2025-04-22 13:11:54,728 - INFO - No match found. Moved ../sample_invoices/arval/arval.pdf to unprocessed.
+2025-04-22 13:12:28,054 - INFO - Compared ../sample_invoices/cardif-lisbon/cardif-lisbon.pdf and templates\cardif-lisbon.pdf. Similarity: 1.00
+2025-04-22 13:12:28,068 - INFO - Compared ../sample_invoices/cardif-lisbon/cardif-lisbon.pdf and templates\unit.pdf. Similarity: 0.08
+2025-04-22 13:12:28,068 - INFO - Matched with cardif-lisbon.pdf, score: 1.00
+2025-04-22 13:12:28,094 - INFO - Job sent to data-extraction queue.
+2025-04-23 12:05:18,172 - INFO - Compared ../sample_invoices/unit4/unit.pdf and templates\cardif-lisbon.pdf. Similarity: 0.07
+2025-04-23 12:05:18,212 - INFO - Compared ../sample_invoices/unit4/unit.pdf and templates\unit.pdf. Similarity: 1.00
+2025-04-23 12:05:18,212 - INFO - Matched with unit.pdf, score: 1.00
+2025-04-23 12:05:18,222 - INFO - Job sent to data-extraction queue.
+2025-04-23 16:12:22,438 - INFO - Compared ../sample_invoices/unit4/unit_1.pdf and templates\cardif-lisbon.pdf. Similarity: 0.07
+2025-04-23 16:12:22,469 - INFO - Compared ../sample_invoices/unit4/unit_1.pdf and templates\unit.pdf. Similarity: 1.00
+2025-04-23 16:12:22,469 - INFO - Matched with unit.pdf, score: 1.00
+2025-04-23 16:12:22,494 - INFO - Job sent to data-extraction queue.
+2025-04-23 18:38:34,481 - INFO - Compared ../sample_invoices/cardif-lisbon/cardif-lisbon.pdf and ../templates/pdfs\cardif-lisbon.pdf. Similarity: 1.00
+2025-04-23 18:38:34,481 - INFO - Matched with cardif-lisbon.pdf, score: 1.00
+2025-04-23 18:38:34,502 - INFO - Job sent to data-extraction queue.
+2025-04-23 18:42:59,875 - INFO - Compared ../sample_invoices/cardif-lisbon/cardif-lisbon.pdf and ../templates/pdfs\cardif-lisbon.pdf. Similarity: 1.00
+2025-04-23 18:42:59,875 - INFO - Matched with cardif-lisbon.pdf, score: 1.00
+2025-04-23 18:42:59,902 - INFO - Job sent to data-extraction queue.
