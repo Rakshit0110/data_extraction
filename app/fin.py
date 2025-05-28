@@ -1,133 +1,134 @@
 import pytesseract
 from PIL import Image
-import json
-import re
 import cv2
-import numpy as np
+import re
+import json
+import unicodedata
 import logging
+import numpy as np
 
-# Configure logging
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Optional: set tesseract path (modify if needed)
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+def load_image(image_path):
+    image = cv2.imread(image_path)
+    return image
+
+def preprocess_image(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    denoised = cv2.fastNlMeansDenoising(gray, None, 30, 7, 21)
+    thresh = cv2.adaptiveThreshold(denoised, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
+                                   cv2.THRESH_BINARY, 11, 2)
+    return thresh
+
+def extract_text_with_ocr(image, search_key, direction, distance, size, regex=None):
+    preprocessed_img = preprocess_image(image)
+    d = pytesseract.image_to_data(preprocessed_img, output_type=pytesseract.Output.DICT)
+
+    full_text = []
+    coords = []
+
+    for i in range(len(d['text'])):
+        word = d['text'][i].strip()
+        if word:
+            full_text.append(word)
+            coords.append({
+                'text': word,
+                'left': d['left'][i],
+                'top': d['top'][i],
+                'width': d['width'][i],
+                'height': d['height'][i]
+            })
+
+    joined_text = ' '.join(full_text)
+    search_key_normalized = re.sub(r'\s+', '', search_key.lower())
+    word_indices = []
+
+    # Match whole key phrase
+    for i in range(len(coords)):
+        for j in range(i+1, min(i+6, len(coords))+1):
+            phrase = ''.join([w['text'] for w in coords[i:j]]).lower()
+            if search_key_normalized == re.sub(r'\s+', '', phrase):
+                word_indices.append((i, j - 1))
+                break
+
+    valid_texts = []
+
+    for start_idx, end_idx in word_indices:
+        ref_box = coords[end_idx]  # Use last word of phrase as reference
+        ref_x, ref_y, ref_w, ref_h = ref_box['left'], ref_box['top'], ref_box['width'], ref_box['height']
+
+        for item in coords:
+            tx, ty, tw, th = item['left'], item['top'], item['width'], item['height']
+            word = item['text']
+
+            if direction == "Right" and abs(ty - ref_y) < 20 and tx > (ref_x + ref_w) and tx < (ref_x + ref_w + distance):
+                valid_texts.append(word)
+            elif direction == "Left" and abs(ty - ref_y) < 20 and (tx + tw) < ref_x and (tx + tw) > (ref_x - distance):
+                valid_texts.append(word)
+            elif direction == "Down" and abs(tx - ref_x) < 20 and ty > (ref_y + ref_h) and ty < (ref_y + ref_h + distance):
+                valid_texts.append(word)
+            elif direction == "Up" and abs(tx - ref_x) < 20 and (ty + th) < ref_y and (ty + th) > (ref_y - distance):
+                valid_texts.append(word)
+
+    combined_text = " ".join(valid_texts)
+    cleaned_text = unicodedata.normalize('NFC', combined_text.strip())
+    cleaned_text = bytes(cleaned_text, 'utf-8').decode('unicode_escape')
+
+    if regex:
+        matched_text = re.findall(regex, cleaned_text.replace(" ", ""))
+        cleaned_text = "\n".join(matched_text) if matched_text else "No match found"
+
+    if size == "single line":
+        lines = cleaned_text.splitlines()
+        return lines[0] if lines else ""
+    elif size == "multi line":
+        return "\n".join(cleaned_text.splitlines()[:5])
+    else:
+        return cleaned_text
 
 def load_json(file_path):
-    logging.info(f"Loading JSON file from {file_path}")
-    with open(file_path, 'r') as f:
+    with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def preprocess_image(image_path):
-    logging.info(f"Preprocessing image: {image_path}")
-    img = cv2.imread(image_path)
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    
-    # Improve contrast
-    gray = cv2.equalizeHist(gray)
-    
-    # Adaptive thresholding
-    thresh = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 11, 2)
-    
-    # Denoise image
-    blur = cv2.GaussianBlur(thresh, (5, 5), 0)
-    
-    return blur
+if __name__ == "__main__":
+    image_path = "sncb-sa.png"
+    json_path = "output_results.json"
 
-def extract_text_from_image(image_path, search_key, direction, distance, size, approach, regex=None):
-    logging.debug(f"Extracting text for key: {search_key}")
-    img = preprocess_image(image_path)
-    
-    custom_config = r'--oem 3 --psm 6'
-    ocr_data = pytesseract.image_to_data(img, config=custom_config, output_type=pytesseract.Output.DICT)
-    
-    key_boxes = []
-    results = []
-    full_words = []
-    
-    for i in range(len(ocr_data["text"])):
-        word = ocr_data["text"][i].strip()
-        if not word:
-            continue
-        try:
-            conf = int(ocr_data["conf"][i])
-        except:
-            conf = 0
-        if conf > 60:
-            full_words.append({
-                "text": word,
-                "x": ocr_data["left"][i],
-                "y": ocr_data["top"][i],
-                "w": ocr_data["width"][i],
-                "h": ocr_data["height"][i],
-                "conf": conf
-            })
-    
-    logging.debug(f"Total words detected: {len(full_words)}")
-    
-    for i in range(len(full_words)):
-        if full_words[i]["text"].lower() == search_key.lower():
-            key_boxes.append(full_words[i])
-            break
-    
-    logging.debug(f"Key boxes found: {len(key_boxes)}")
-    
-    for box in key_boxes:
-        x0, y0, w, h = box["x"], box["y"], box["w"], box["h"]
-        x1, y1 = x0 + w, y0 + h
-        
-        for word in full_words:
-            wx, wy, ww, wh = word["x"], word["y"], word["w"], word["h"]
-            match = False
-            
-            if direction == "Right" and wx > x1 and abs(wy - y0) < 25 and wx - x1 <= distance:
-                match = True
-            elif direction == "Left" and x0 > (wx + ww) and abs(wy - y0) < 25 and x0 - (wx + ww) <= distance:
-                match = True
-            elif direction == "Down" and wy > y1 and wy - y1 <= distance and abs(wx - x0) < 25:
-                match = True
-            elif direction == "Up" and y0 > (wy + wh) and y0 - (wy + wh) <= distance and abs(wx - x0) < 25:
-                match = True
-            
-            if match:
-                results.append(word["text"])
-    
-    text = " ".join(results).strip()
-    
-    if regex:
-        matched = re.findall(regex, text.replace(" ", ""))
-        text = "\n".join(matched) if matched else "No match found"
-    
-    logging.info(f"Extracted text for {search_key}: {text}")
-    return text
-
-def extract_key_values(image_path, json_path):
+    image = load_image(image_path)
     data = load_json(json_path)
     final_data = {}
-    
+
+    display_keys = {
+        "IBAN": "iban",
+        "BIC/SWIFT": "swift/bic",
+        "DATE": "date",
+        "DUE DATE": "due date",
+        "TVA": "vat number",
+        "TOTAL AMOUNT": "total amount",
+        "INVOICE NO.": "invoice number",
+        "FROM ADDRESS": "from address",
+        "TO ADDRESS": "to address",
+        "SUPPLIER NAME": "supplier name",
+        "CLIENT NAME": "client name"
+    }
+
     for key, value in data.items():
         search_key = value["key"]
-        direction = value["Direction"]
-        distance = value["Distance"]
-        size = value["size"]
-        approach = value["Approach"]
-        regex = value.get("regex", None)
-        
-        extracted_text = extract_text_from_image(image_path, search_key, direction, distance, size, approach, regex)
-        final_data[search_key] = extracted_text
-    
-    return final_data
+        direction = value.get("Direction")
+        distance = value.get("Distance", 300)
+        size = value.get("Size", "single line")
+        regex = value.get("regex")
 
-# Set your paths
-image_path = "../sample_invoices/unit4/unit.png"
-json_path = "parser_json/unit.json"
+        if direction and distance:
+            result = extract_text_with_ocr(image, search_key, direction, distance, size, regex)
+        else:
+            result = "Null"
 
-# Extract data
-logging.info("Starting text extraction process...")
-final_data = extract_key_values(image_path, json_path)
+        display_key = display_keys.get(key, key.lower())
+        final_data[display_key] = result
+        logging.info(f"{display_key}: {result}")
 
-# Save output
-output_file = 'op_json/final_key_val_from_image.json'
-with open(output_file, 'w') as json_file:
-    json.dump(final_data, json_file, indent=4)
-
-logging.info(f"✅ Final extracted data saved to {output_file}")
+    with open('op_json/image_output.json', 'w', encoding='utf-8') as f:
+        json.dump(final_data, f, indent=4)

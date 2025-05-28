@@ -7,6 +7,7 @@ import os
 import time  # for optional delay
 from config import INPUT_INVOICES_PATH, PROCESSED_FILES_PATH, EXTRACTED_JSON_PATH, UNPROCESSED_PATH
 
+
 # Configure logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', handlers=[
     logging.FileHandler('logs/app.log'),

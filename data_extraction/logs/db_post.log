@@ -1,0 +1,79 @@
+2025-04-28 11:31:00,550 - INFO -  Listening to Redis queue: data-extraction-queue
+2025-04-28 11:31:23,724 - INFO -  Received job from queue. Starting extraction...
+2025-04-28 11:31:23,725 - INFO - Starting extraction for invoice: ../sample_invoices/unit4/unit_2.pdf
+2025-04-28 11:31:23,725 - INFO - Extracting text for 'IBAN' from the PDF.
+2025-04-28 11:31:23,725 - INFO - Searching for 'IBAN' in PDF...
+2025-04-28 11:31:23,735 - DEBUG - Found 1 instances of 'IBAN' on page 0.
+2025-04-28 11:31:23,758 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:31:23,765 - INFO - Extracting text for 'Swift' from the PDF.
+2025-04-28 11:31:23,770 - INFO - Searching for 'Swift' in PDF...
+2025-04-28 11:31:23,779 - DEBUG - Found 1 instances of 'Swift' on page 0.
+2025-04-28 11:31:23,784 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:31:23,785 - INFO - Extracting text for 'Factuurdatum' from the PDF.
+2025-04-28 11:31:23,786 - INFO - Searching for 'Factuurdatum' in PDF...
+2025-04-28 11:31:23,794 - DEBUG - Found 1 instances of 'Factuurdatum' on page 0.
+2025-04-28 11:31:23,798 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:31:23,799 - INFO - Extracting text for 'Vervaldatum' from the PDF.
+2025-04-28 11:31:23,800 - INFO - Searching for 'Vervaldatum' in PDF...
+2025-04-28 11:31:23,809 - DEBUG - Found 1 instances of 'Vervaldatum' on page 0.
+2025-04-28 11:31:23,812 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:31:23,813 - INFO - Extracting text for 'Uw BTW nr' from the PDF.
+2025-04-28 11:31:23,814 - INFO - Searching for 'Uw BTW nr' in PDF...
+2025-04-28 11:31:23,823 - DEBUG - Found 1 instances of 'Uw BTW nr' on page 0.
+2025-04-28 11:31:23,828 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:31:23,829 - INFO - Extracting text for 'Totaal incl. BTW' from the PDF.
+2025-04-28 11:31:23,829 - INFO - Searching for 'Totaal incl. BTW' in PDF...
+2025-04-28 11:31:23,837 - DEBUG - Found 1 instances of 'Totaal incl. BTW' on page 0.
+2025-04-28 11:31:23,840 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:31:23,841 - INFO - Extracting text for 'Factuurnummer' from the PDF.
+2025-04-28 11:31:23,841 - INFO - Searching for 'Factuurnummer' in PDF...
+2025-04-28 11:31:23,852 - DEBUG - Found 1 instances of 'Factuurnummer' on page 0.
+2025-04-28 11:31:23,855 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:31:23,855 - INFO - Extracting text for 'Uitbreidingstraat 60-622600 BERCHEM - ANTWERPENBelgium' from the PDF.
+2025-04-28 11:31:23,865 - INFO - Extracting text for 'Chaussée de Mons' from the PDF.
+2025-04-28 11:31:23,874 - INFO - Extracting text for 'Unit4 Business Software N.V.' from the PDF.
+2025-04-28 11:31:23,887 - INFO - Extracting text for 'Cardif Association de frais ' from the PDF.
+2025-04-28 11:31:24,025 - INFO - Attempting to insert data into the database.
+2025-04-28 11:31:24,034 - INFO - Data successfully inserted into the database.
+2025-04-28 11:31:24,034 - INFO - Database connection closed.
+2025-04-28 11:31:24,147 - INFO - Processed file moved to ../files/processed\unit_2.pdf.
+2025-04-28 11:46:56,359 - INFO -  Listening to Redis queue: data-extraction-queue
+2025-04-28 11:47:22,687 - INFO -  Received job from queue. Starting extraction...
+2025-04-28 11:47:22,687 - INFO - Starting extraction for invoice: ../sample_invoices/unit4/unit_2.pdf
+2025-04-28 11:47:22,687 - INFO - Extracting text for 'IBAN' from the PDF.
+2025-04-28 11:47:22,688 - INFO - Searching for 'IBAN' in PDF...
+2025-04-28 11:47:22,693 - DEBUG - Found 1 instances of 'IBAN' on page 0.
+2025-04-28 11:47:22,696 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:47:22,699 - INFO - Extracting text for 'Swift' from the PDF.
+2025-04-28 11:47:22,699 - INFO - Searching for 'Swift' in PDF...
+2025-04-28 11:47:22,705 - DEBUG - Found 1 instances of 'Swift' on page 0.
+2025-04-28 11:47:22,706 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:47:22,707 - INFO - Extracting text for 'Factuurdatum' from the PDF.
+2025-04-28 11:47:22,707 - INFO - Searching for 'Factuurdatum' in PDF...
+2025-04-28 11:47:22,713 - DEBUG - Found 1 instances of 'Factuurdatum' on page 0.
+2025-04-28 11:47:22,715 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:47:22,716 - INFO - Extracting text for 'Vervaldatum' from the PDF.
+2025-04-28 11:47:22,716 - INFO - Searching for 'Vervaldatum' in PDF...
+2025-04-28 11:47:22,720 - DEBUG - Found 1 instances of 'Vervaldatum' on page 0.
+2025-04-28 11:47:22,721 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:47:22,722 - INFO - Extracting text for 'Uw BTW nr' from the PDF.
+2025-04-28 11:47:22,722 - INFO - Searching for 'Uw BTW nr' in PDF...
+2025-04-28 11:47:22,728 - DEBUG - Found 1 instances of 'Uw BTW nr' on page 0.
+2025-04-28 11:47:22,731 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:47:22,732 - INFO - Extracting text for 'Totaal incl. BTW' from the PDF.
+2025-04-28 11:47:22,732 - INFO - Searching for 'Totaal incl. BTW' in PDF...
+2025-04-28 11:47:22,736 - DEBUG - Found 1 instances of 'Totaal incl. BTW' on page 0.
+2025-04-28 11:47:22,738 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:47:22,739 - INFO - Extracting text for 'Factuurnummer' from the PDF.
+2025-04-28 11:47:22,739 - INFO - Searching for 'Factuurnummer' in PDF...
+2025-04-28 11:47:22,743 - DEBUG - Found 1 instances of 'Factuurnummer' on page 0.
+2025-04-28 11:47:22,746 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:47:22,747 - INFO - Extracting text for 'Uitbreidingstraat 60-622600 BERCHEM - ANTWERPENBelgium' from the PDF.
+2025-04-28 11:47:22,752 - INFO - Extracting text for 'Chaussée de Mons' from the PDF.
+2025-04-28 11:47:22,757 - INFO - Extracting text for 'Unit4 Business Software N.V.' from the PDF.
+2025-04-28 11:47:22,763 - INFO - Extracting text for 'Cardif Association de frais ' from the PDF.
+2025-04-28 11:47:22,767 - INFO - Mapped data: {'iban': 'BE08963029771966', 'swift_bic': 'BBIUBEBB', 'date': 'Not found', 'due_date': 'Not found', 'vat_number': 'Not found', 'total_amount': 'Not found', 'invoice_number': 'Not found', 'from_address': 'Not found', 'to_address': 'Not found', 'supplier_name': 'Not found', 'client_name': 'Not found'}
+2025-04-28 11:47:22,824 - INFO - Attempting to insert data into the database.
+2025-04-28 11:47:22,831 - INFO - Data successfully inserted into the database.
+2025-04-28 11:47:22,832 - INFO - Database connection closed.
+2025-04-28 11:47:22,942 - INFO - Processed file moved to ../files/processed\unit_2.pdf.

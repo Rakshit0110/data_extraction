@@ -1,65 +1,73 @@
 {
-    "key 1 and val 1": {
-        "key":"Nr.",
-        "size":"single line",
-        "Distance": 206.61,
-        "Direction": "Right",
-        "Approach": "Top"
-    },
-    "key 2 and val 2": {
-        "key":"CARDIF ASSURANCE VIE",
-        "size":"multi line",
-        "Distance": 68.04,
-        "Direction": "Down",
-        "Approach": "Top"
-    },
-    "key 3 and val 3": {
+    "IBAN": {
         "key":"IBAN:",
-        "size":"single line",
+        "Distance": 109.92,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "BIC/SWIFT": {
+        "key":"Swift:",
         "Distance": 112.32,
         "Direction": "Right",
-        "Approach": "Top"
+        "Approach": "Top",
+        "Size": "single line",
+        "regex": "^.{8}"
     },
-    "key 4 and val 4": {
-        "key":"Swift",
-        "size":"single line",
-        "Distance": 105.05,
-        "Direction": "Right",
-        "Approach": "Top"
-    },
-    "key 5 and val 5": {
-        "key":"Client Nr.:",
-        "size":"single line",
-        "Distance": 367.2,
-        "Direction": "Right",
-        "Approach": "Top"
-    },
-    "key 6 and val 6": {
-        "key":"TIN",
-        "size":"single line",
-        "Distance": 91.8,
-        "Direction": "Right",
-        "Approach": "Top"
-    },
-    "key 7 and val 7": {
-        "key":"Date Due",
-        "size":"single line",
-        "Distance": 214.22,
-        "Direction": "Right",
-        "Approach": "Top"
-    },
-    "key 8 and val 8": {
+    "DATE": {
         "key":"Date:",
-        "size":"single line",
-        "Distance": 154.35,
+        "Distance": 163.22,
         "Direction": "Right",
-        "Approach": "Top"
+        "Approach": "Top",
+        "Size": "single line"
     },
-    "key 9 and val 9": {
-        "key":"TOTAL:",
-        "size":"single line",
-        "Distance": 336.64,
+    "DUE DATE": {
+        "key":"Date Due",
+        "Distance": 221.86,
         "Direction": "Right",
-        "Approach": "Down"
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "TVA": {
+        "key":"TIN",
+        "Distance": 79.42,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line",
+        "regex": "^.{11}"
+    },
+    "TOTAL AMOUNT": {
+        "key":"TOTAL:",
+        "Distance": 311.27,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line"
+    },
+    "INVOICE NO.": {
+        "key":"Nr",
+        "Distance": 214.21,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "FROM ADDRESS": {
+        "key":"Cardif Support,",
+        "Approach": "Top",
+        "Size": "multi line"
+    },
+    "TO ADDRESS": {
+        "key":" Rue Montagne du Parc 8 boite 2",
+        "Approach": "Top",
+        "Size": "multi line"
+    },
+    "SUPPLIER NAME": {
+        "key":"BNP",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "CLIENT NAME": {
+        "key":"CARDIF ASSURANCE VIE",
+        "Approach": "Top",
+        "Size": "single line"
     }
 }

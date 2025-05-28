@@ -1,89 +1,65 @@
 {
-    "key 1 and val 1": {
-        "key": "Numéro",
-        "size": "single line",
+    "IBAN": {
+        "key":"IBAN :",
+        "Distance": 101.72,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+         "regex": "^.{16}"
+    },
+    "BIC/SWIFT": {
+        "key":"BIC:",
+        "Distance": 81.87,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+        "regex": "^.{8}"
+    },
+    "DATE": {
+        "key":"Date facture",
+        "Distance": 62.23,
+        "Direction": "Down",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "DUE DATE": {
+        "key":"Date d'échéance",
+        "Distance": 260.63,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+         "regex": "^.{10}"
+    },
+    "TVA": {
+        "key":"TOTAL TVA",
+        "Distance": 1736.7,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+        "regex": "^.{11}"
+    },
+    "TOTAL AMOUNT": {
+        "key":"TOTAL TVA COMPRISE",
+        "Distance": 1716.85,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line"
+    },
+    "INVOICE NO.": {
+        "key":"Numéro",
         "Distance": 21.87,
         "Direction": "Down",
-        "Approach": "Top"
+        "Approach": "Top",
+        "Size": "single line"
     },
-    "key 2 and val 2": {
-        "key": "N° TVA Client",
-        "size": "single line",
-        "Distance": 21.65,
-        "Direction": "Down",
-        "Approach": "Top"
+    "SUPPLIER NAME": {
+        "key":"SNCEB SA",
+        "Approach": "Top",
+        "Size": "single line"
     },
-    "key 3 and val 3": {
-        "key": "Numéro client",
-        "size": "single line",
-        "Distance": 21.99,
-        "Direction": "Down",
-        "Approach": "Top"
-    },
-    "key 4 and val 4": {
-        "key": "Date facture",
-        "size": "single line",
-        "Distance": 21.04,
-        "Direction": "Down",
-        "Approach": "Top"
-    },
-    "key 5 and val 5": {
-        "key": "Notre référence",
-        "size": "single line",
-        "Distance": 21.95,
-        "Direction": "Down",
-        "Approach": "Top"
-    },
-    "key 6 and val 6": {
-        "key": "SETRCARDIF ASSURANCE VIESUCCURSALE BELGEA l'att. Boulteme MohamedBERGENSESTEENWEG 14241070 Anderlecht",
-        "size": "single line",
-        "Distance": 678.06,
-        "Direction": "Right",
-        "Approach": "Top"
-    },
-    "key 7 and val 7": {
-        "key": "TOTAL HTVA",
-        "size": "single line",
-        "Distance": 1689.58,
-        "Direction": "Right",
-        "Approach": "Down"
-    },
-    "key 8 and val 8": {
-        "key": "TOTAL TVA COMPRISE",
-        "size": "single line",
-        "Distance": 1689.56,
-        "Direction": "Right",
-        "Approach": "Down"
-    },
-    "key 9 and val 9": {
-        "key": "TOTAL TVA",
-        "size": "single line",
-        "Distance": 1726.78,
-        "Direction": "Right",
-        "Approach": "Down"
-    },
-    "key 10 and val 10": {
-        "key": "Date d'échéance:",
-        "size": "single line",
-        "Distance": 270.43,
-        "Direction": "Right",
-        "Approach": "Down",
-         "regex":"^.{10}"
-    },
-    "key 11 and val 11": {
-        "key": "IBAN:",
-        "size": "single line",
-        "Distance": 102.8,
-        "Direction": "Right",
-        "Approach": "Down",
-        "regex":"^.{16}"
-    },
-    "key 12 and val 12": {
-        "key": "BIC:",
-        "size": "single line",
-        "Distance": 94.31,
-        "Direction": "Right",
-        "Approach": "Down",
-        "regex":"^.{8}"
+    "CLIENT NAME": {
+        "key":"CARDIF ASSURANCE VIESUCCURSALE BELGE",
+        "Approach": "Top",
+        "Size": "single line"
     }
 }

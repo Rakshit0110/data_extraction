@@ -78,7 +78,7 @@ def load_json(file_path):
     return data
 
 # Paths
-pdf_path = "../sample_invoices/iabe/iabe.pdf"
+pdf_path = "../sample_invoices/unit4/unit.pdf"
 json_path = "output_results.json"
 
 logging.info(f"Starting PDF extraction process for file {pdf_path}.")

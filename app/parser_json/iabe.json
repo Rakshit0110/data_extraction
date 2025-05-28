@@ -1,47 +1,33 @@
 {
-    "key 1 and val 1": {
+    "INVOICE NO.": {
         "key":"INVOICE N",
         "size":"single line",
         "Distance": 305.05,
         "Direction": "Right",
         "Approach": "Top"
     },
-    "key 2 and val 2": {
+    "TVA": {
         "key":"VAT Nr",
         "size":"single line",
         "Distance": 176.15,
         "Direction": "Right",
         "Approach": "Top"
     },
-    "key 3 and val 3": {
+    "TOTAL AMOUNT": {
         "key":"Total amount",
         "size":"single line",
         "Distance": 697.05,
         "Direction": "Right",
         "Approach": "Down"
     },
-    "key 4 and val 4": {
+    "DUE DATE": {
         "key":"Due date",
         "size":"single line",
         "Distance": 699.45,
         "Direction": "Right",
         "Approach": "Down"
     },
-    "key 5 and val 5": {
-        "key":"BNP PARIBAS CARDIF",
-        "size":"multi line",
-        "Distance": 59.52,
-        "Direction": "Down",
-        "Approach": "Top"
-    },
-    "key 6 and val 6": {
-        "key":"Our Ref:",
-        "size":"single line",
-        "Distance": 186.0,
-        "Direction": "Right",
-        "Approach": "Top"
-    },
-    "key 7 and val 7": {
+    "IBAN": {
         "key":"Payable to the bank account",
         "size":"single line",
         "Distance": 694.4,
@@ -49,7 +35,7 @@
         "Approach": "Down",
         "regex":"^.{16}"
     },
-    "key 8 and val 8": {
+    "BIC/SWIFT": {
         "key":"BIC",
         "size":"single line",
         "Distance": 89.28,

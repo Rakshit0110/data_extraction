@@ -4,7 +4,7 @@ import logging
 import os
 import shutil
 
-# ----------------------- Utility Functions -----------------------
+
 
 def calculate_distance(x1, y1, x2, y2):
     return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
@@ -33,7 +33,7 @@ def add_regex_field(name):
         return "^.{8}"
     return None
 
-# ----------------------- Core Logic -----------------------
+
 
 def process_json(json_path, logger):
     try:
@@ -83,7 +83,6 @@ def process_json(json_path, logger):
         logger.error(f"Error processing JSON: {e}")
         return {}
 
-# ----------------------- File Saving -----------------------
 
 def save_files(pdf_path, output_json, config, logger):
     try:

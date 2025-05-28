@@ -1,7 +1,7 @@
 import os
 
 # Path to the input invoice PDF
-INPUT_INVOICE_PATH = "../sample_invoices/cardif-lisbon/cardif-lisbon.pdf"
+INPUT_INVOICE_PATH = "../sample_invoices/unit4/unit_2.pdf"
 # INPUT_INVOICE_PATH = "../sample_invoices/iabe/iabe.pdf"
 
 # Folders

@@ -1,0 +1,46 @@
+{
+    "IBAN": {
+        "key": "IBAN",
+        "regex": "IBAN\\s*([A-Z]{2}\\d{2}\\d{12,})"
+    },
+    "BIC/SWIFT": {
+        "key": "Swift",
+        "regex": "Swift\\s*([A-Z]{6,11})"
+    },
+    "DATE": {
+        "key": "Factuurdatum",
+        "regex": "Factuurdatum\\s*(\\d{2}/\\d{2}/\\d{4})"
+    },
+    "DUE DATE": {
+        "key": "Vervaldatum",
+        "regex": "Vervaldatum\\s*(\\d{2}/\\d{2}/\\d{4})"
+    },
+    "TVA": {
+        "key": "Uw BTW nr",
+        "regex": "Uw BTW nr\\s*(.*)"
+    },
+    "TOTAL AMOUNT": {
+        "key": "Totaal incl\\. BTW",
+        "regex": "Totaal incl\\. BTW\\s*EUR\\s*([\\d\\s,]+)"
+    },
+    "INVOICE NO.": {
+        "key": "Factuurnummer",
+        "regex": "Factuurnummer\\s*(\\d+)"
+    },
+    "FROM ADDRESS": {
+        "key": "Uitbreidingstraat",
+        "regex": "(Uitbreidingstraat\\s*.*?BERCHEM\\s*-\\s*ANTWERPEN)"
+    },
+    "TO ADDRESS": {
+        "key": "Chaussée de Mons",
+        "regex": "(Chaussée de Mons\\s*\\d+\\s*1070 Bruxelles)"
+    },
+    "SUPPLIER NAME": {
+        "key": "Unit4 Business Software N.V.",
+        "regex": "(Unit4 Business Software N\\.V\\.)"
+    },
+    "CLIENT NAME": {
+        "key": "Cardif Association de frais",
+        "regex": "(Cardif Association de frais)"
+    }
+}

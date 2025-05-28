@@ -57,6 +57,7 @@ def process_json(json_file_path):
                 v = data[val_key][0]
 
                 results[base_name] = {
+                    "key": k.get("key"),
                     "Distance": round(calculate_distance(k["x"], k["y"], v["x"], v["y"]), 2),
                     "Direction": calculate_direction(k["x"], k["y"], v["x"], v["y"]),
                     "Approach": determine_approach(k["y"]),

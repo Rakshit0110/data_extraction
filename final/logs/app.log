@@ -1,0 +1,227 @@
+2025-05-09 15:36:49,287 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp0x2pbdq6.png
+2025-05-09 15:36:49,377 - INFO - Comparing input image with template: ../templates/images/49.png
+2025-05-09 15:36:50,111 - INFO - Similarity score: 0.29
+2025-05-09 15:36:50,114 - INFO - Score for ../templates/images/49.png: 0.29
+2025-05-09 15:36:50,114 - INFO - Comparing input image with template: ../templates/images/50.png
+2025-05-09 15:36:50,461 - INFO - Similarity score: 0.98
+2025-05-09 15:36:50,464 - INFO - Score for ../templates/images/50.png: 0.98
+2025-05-09 15:36:50,464 - INFO - Best match: ../templates/images/50.png with score 0.98
+2025-05-09 15:36:50,465 - INFO - Extraction coordinates (JSON): {"TVA KEY": [{"x": 102.35061721801758, "y": 411.53419996572376, "key": "TVA", "page": 0, "width": 94.35, "height": 48.445786308750606}], "TVA VAL": [{"x": 201.80061721801758, "y": 408.9844217389474, "key": null, "page": 0, "width": 288.15, "height": 45.89600808197429}], "DATE KEY": [{"x": 1711.4006172180177, "y": 217.75104500408906, "key": "Date de la facture:", "page": 0, "width": 318.75, "height": 43.34622985519797}], "DATE VAL": [{"x": 2037.8006172180176, "y": 215.20126677731272, "key": null, "page": 0, "width": 201.45, "height": 40.796451628421615}], "IBAN KEY": [{"x": 112.55061721801758, "y": 470.17908945494776, "key": "IBAN:", "page": 0, "width": 102, "height": 43.34622985519797}], "IBAN VAL": [{"x": 219.65061721801757, "y": 465.079533001395, "key": null, "page": 0, "width": 497.25, "height": 58.64489921585609}], "DUE DATE KEY": [{"x": 1713.9506172180177, "y": 268.7466095396161, "key": "Date d'\u00e9ch\u00e9ance:", "page": 0, "width": 303.45, "height": 48.44578630875064}], "DUE DATE VAL": [{"x": 2019.9506172180177, "y": 268.7466095396161, "key": null, "page": 0, "width": 206.55, "height": 48.44578630875064}], "BIC/SWIFT KEY": [{"x": 110.00061721801758, "y": 526.2742104440274, "key": "BIC", "page": 0, "width": 76.5, "height": 43.34622985519797}], "BIC/SWIFT VAL": [{"x": 201.80061721801758, "y": 528.8239886708038, "key": null, "page": 0, "width": 193.8, "height": 56.0951209890797}], "INVOICE NO. KEY": [{"x": 1708.8506172180175, "y": 151.9667589719536, "key": "Facture N\u00b0", "page": 0, "width": 196.35, "height": 53.54534276230335}], "INVOICE NO. VAL": [{"x": 1917.9506172180177, "y": 151.9667589719536, "key": null, "page": 0, "width": 201.45, "height": 50.995564535526995}], "TOTAL AMOUNT KEY": [{"x": 1742.0006172180176, "y": 1110.1734341024437, "key": "Total TVAC", "page": 0, "width": 323.85, "height": 68.84401212296143}], "TOTAL AMOUNT VAL": [{"x": 2119.4006172180175, "y": 1112.7232123292201, "key": null, "page": 0, "width": 272.85, "height": 53.545342762303385}]}
+2025-05-09 15:37:47,705 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmphuu_6cbl.png
+2025-05-09 15:37:47,799 - INFO - Comparing input image with template: ../templates/images/49.png
+2025-05-09 15:37:48,321 - INFO - Similarity score: 0.29
+2025-05-09 15:37:48,325 - INFO - Score for ../templates/images/49.png: 0.29
+2025-05-09 15:37:48,326 - INFO - Comparing input image with template: ../templates/images/50.png
+2025-05-09 15:37:48,778 - INFO - Similarity score: 0.46
+2025-05-09 15:37:48,782 - INFO - Score for ../templates/images/50.png: 0.46
+2025-05-09 15:37:48,782 - ERROR - Model not matched.
+2025-05-09 15:40:59,222 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpv2nu6sx0.png
+2025-05-09 15:40:59,312 - INFO - Comparing input image with template: ../templates/images/49.png
+2025-05-09 15:41:03,689 - INFO - SSIM score: 0.86
+2025-05-09 15:41:03,706 - INFO - Score for ../templates/images/49.png: 0.86
+2025-05-09 15:41:03,706 - INFO - Comparing input image with template: ../templates/images/50.png
+2025-05-09 15:41:07,679 - INFO - SSIM score: 0.92
+2025-05-09 15:41:07,703 - INFO - Score for ../templates/images/50.png: 0.92
+2025-05-09 15:41:07,704 - INFO - Best match: ../templates/images/50.png with score 0.92
+2025-05-09 15:41:07,707 - INFO - Extraction coordinates (JSON): {"TVA KEY": [{"x": 102.35061721801758, "y": 411.53419996572376, "key": "TVA", "page": 0, "width": 94.35, "height": 48.445786308750606}], "TVA VAL": [{"x": 201.80061721801758, "y": 408.9844217389474, "key": null, "page": 0, "width": 288.15, "height": 45.89600808197429}], "DATE KEY": [{"x": 1711.4006172180177, "y": 217.75104500408906, "key": "Date de la facture:", "page": 0, "width": 318.75, "height": 43.34622985519797}], "DATE VAL": [{"x": 2037.8006172180176, "y": 215.20126677731272, "key": null, "page": 0, "width": 201.45, "height": 40.796451628421615}], "IBAN KEY": [{"x": 112.55061721801758, "y": 470.17908945494776, "key": "IBAN:", "page": 0, "width": 102, "height": 43.34622985519797}], "IBAN VAL": [{"x": 219.65061721801757, "y": 465.079533001395, "key": null, "page": 0, "width": 497.25, "height": 58.64489921585609}], "DUE DATE KEY": [{"x": 1713.9506172180177, "y": 268.7466095396161, "key": "Date d'\u00e9ch\u00e9ance:", "page": 0, "width": 303.45, "height": 48.44578630875064}], "DUE DATE VAL": [{"x": 2019.9506172180177, "y": 268.7466095396161, "key": null, "page": 0, "width": 206.55, "height": 48.44578630875064}], "BIC/SWIFT KEY": [{"x": 110.00061721801758, "y": 526.2742104440274, "key": "BIC", "page": 0, "width": 76.5, "height": 43.34622985519797}], "BIC/SWIFT VAL": [{"x": 201.80061721801758, "y": 528.8239886708038, "key": null, "page": 0, "width": 193.8, "height": 56.0951209890797}], "INVOICE NO. KEY": [{"x": 1708.8506172180175, "y": 151.9667589719536, "key": "Facture N\u00b0", "page": 0, "width": 196.35, "height": 53.54534276230335}], "INVOICE NO. VAL": [{"x": 1917.9506172180177, "y": 151.9667589719536, "key": null, "page": 0, "width": 201.45, "height": 50.995564535526995}], "TOTAL AMOUNT KEY": [{"x": 1742.0006172180176, "y": 1110.1734341024437, "key": "Total TVAC", "page": 0, "width": 323.85, "height": 68.84401212296143}], "TOTAL AMOUNT VAL": [{"x": 2119.4006172180175, "y": 1112.7232123292201, "key": null, "page": 0, "width": 272.85, "height": 53.545342762303385}]}
+2025-05-12 10:04:00,377 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpispcmqj9.png
+2025-05-12 10:04:00,526 - INFO - Comparing input image with template: ../templates/images/49.png
+2025-05-12 10:04:03,647 - INFO - SSIM score: 0.86
+2025-05-12 10:04:03,656 - INFO - Score for ../templates/images/49.png: 0.86
+2025-05-12 10:04:03,658 - INFO - Comparing input image with template: ../templates/images/50.png
+2025-05-12 10:04:06,115 - INFO - SSIM score: 0.92
+2025-05-12 10:04:06,125 - INFO - Score for ../templates/images/50.png: 0.92
+2025-05-12 10:04:06,126 - INFO - Best match: ../templates/images/50.png with score 0.92
+2025-05-12 10:04:06,127 - INFO - Extraction coordinates (JSON): {"TVA KEY": [{"x": 102.35061721801758, "y": 411.53419996572376, "key": "TVA", "page": 0, "width": 94.35, "height": 48.445786308750606}], "TVA VAL": [{"x": 201.80061721801758, "y": 408.9844217389474, "key": null, "page": 0, "width": 288.15, "height": 45.89600808197429}], "DATE KEY": [{"x": 1711.4006172180177, "y": 217.75104500408906, "key": "Date de la facture:", "page": 0, "width": 318.75, "height": 43.34622985519797}], "DATE VAL": [{"x": 2037.8006172180176, "y": 215.20126677731272, "key": null, "page": 0, "width": 201.45, "height": 40.796451628421615}], "IBAN KEY": [{"x": 112.55061721801758, "y": 470.17908945494776, "key": "IBAN:", "page": 0, "width": 102, "height": 43.34622985519797}], "IBAN VAL": [{"x": 219.65061721801757, "y": 465.079533001395, "key": null, "page": 0, "width": 497.25, "height": 58.64489921585609}], "DUE DATE KEY": [{"x": 1713.9506172180177, "y": 268.7466095396161, "key": "Date d'\u00e9ch\u00e9ance:", "page": 0, "width": 303.45, "height": 48.44578630875064}], "DUE DATE VAL": [{"x": 2019.9506172180177, "y": 268.7466095396161, "key": null, "page": 0, "width": 206.55, "height": 48.44578630875064}], "BIC/SWIFT KEY": [{"x": 110.00061721801758, "y": 526.2742104440274, "key": "BIC", "page": 0, "width": 76.5, "height": 43.34622985519797}], "BIC/SWIFT VAL": [{"x": 201.80061721801758, "y": 528.8239886708038, "key": null, "page": 0, "width": 193.8, "height": 56.0951209890797}], "INVOICE NO. KEY": [{"x": 1708.8506172180175, "y": 151.9667589719536, "key": "Facture N\u00b0", "page": 0, "width": 196.35, "height": 53.54534276230335}], "INVOICE NO. VAL": [{"x": 1917.9506172180177, "y": 151.9667589719536, "key": null, "page": 0, "width": 201.45, "height": 50.995564535526995}], "TOTAL AMOUNT KEY": [{"x": 1742.0006172180176, "y": 1110.1734341024437, "key": "Total TVAC", "page": 0, "width": 323.85, "height": 68.84401212296143}], "TOTAL AMOUNT VAL": [{"x": 2119.4006172180175, "y": 1112.7232123292201, "key": null, "page": 0, "width": 272.85, "height": 53.545342762303385}]}
+2025-05-12 14:18:03,851 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpi3wkiu8p.png
+2025-05-12 14:18:04,079 - INFO - Comparing input image with template: ../templates/images/56.png
+2025-05-12 14:18:09,514 - INFO - SSIM score: 1.00
+2025-05-12 14:18:09,537 - INFO - Score for ../templates/images/56.png: 1.00
+2025-05-12 14:18:09,538 - INFO - Best match: ../templates/images/56.png with score 1.00
+2025-05-12 14:19:30,633 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpeb3ac_9e.png
+2025-05-12 14:19:30,754 - INFO - Comparing input image with template: ../templates/images/56.png
+2025-05-12 14:19:35,578 - INFO - SSIM score: 1.00
+2025-05-12 14:19:35,598 - INFO - Score for ../templates/images/56.png: 1.00
+2025-05-12 14:19:35,600 - INFO - Best match: ../templates/images/56.png with score 1.00
+2025-05-12 14:27:25,937 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpei4r_59q.png
+2025-05-12 14:27:26,011 - INFO - Comparing input image with template: ../templates/images/56.png
+2025-05-12 14:27:28,872 - INFO - SSIM score: 1.00
+2025-05-12 14:27:28,875 - INFO - Score for ../templates/images/56.png: 1.00
+2025-05-12 14:27:28,875 - INFO - Best match: ../templates/images/56.png with score 1.00
+2025-05-12 14:31:37,279 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp3qgk4f3r.png
+2025-05-12 14:31:37,345 - INFO - Comparing input image with template: ../templates/images/59.png
+2025-05-12 14:31:42,287 - INFO - SSIM score: 1.00
+2025-05-12 14:31:42,309 - INFO - Score for ../templates/images/59.png: 1.00
+2025-05-12 14:31:42,311 - INFO - Best match: ../templates/images/59.png with score 1.00
+2025-05-12 14:32:03,013 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp0y9rxvm9.png
+2025-05-12 14:32:03,080 - INFO - Comparing input image with template: ../templates/images/59.png
+2025-05-12 14:32:05,517 - INFO - SSIM score: 0.94
+2025-05-12 14:32:05,526 - INFO - Score for ../templates/images/59.png: 0.94
+2025-05-12 14:32:05,528 - INFO - Best match: ../templates/images/59.png with score 0.94
+2025-05-12 14:32:18,056 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpgzzpu3g4.png
+2025-05-12 14:32:18,117 - INFO - Comparing input image with template: ../templates/images/59.png
+2025-05-12 14:32:20,541 - INFO - SSIM score: 0.96
+2025-05-12 14:32:20,550 - INFO - Score for ../templates/images/59.png: 0.96
+2025-05-12 14:32:20,550 - INFO - Best match: ../templates/images/59.png with score 0.96
+2025-05-12 14:32:58,180 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpn0k60h9z.png
+2025-05-12 14:32:58,247 - INFO - Comparing input image with template: ../templates/images/59.png
+2025-05-12 14:33:00,556 - INFO - SSIM score: 0.85
+2025-05-12 14:33:00,569 - INFO - Score for ../templates/images/59.png: 0.85
+2025-05-12 14:33:00,569 - ERROR - Model not matched.
+2025-05-12 15:20:02,119 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp5fhbdm1a.png
+2025-05-12 15:20:02,334 - INFO - Comparing input image with template: ../templates/images/59.png
+2025-05-12 15:20:02,579 - WARNING - Could not read images: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp5fhbdm1a.png, ../templates/images/59.png
+2025-05-12 15:20:02,581 - INFO - Score for ../templates/images/59.png: 0.00
+2025-05-12 15:20:02,582 - ERROR - Model not matched.
+2025-05-12 15:28:15,558 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp2vfbc4vy.png
+2025-05-12 15:28:15,656 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 15:28:22,140 - INFO - SSIM score: 1.00
+2025-05-12 15:28:22,166 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 15:28:22,166 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 15:28:48,564 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp1e4jki3g.png
+2025-05-12 15:28:48,652 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 15:28:54,474 - INFO - SSIM score: 0.93
+2025-05-12 15:28:54,500 - INFO - Score for ../templates/images/2.png: 0.93
+2025-05-12 15:28:54,501 - INFO - Best match: ../templates/images/2.png with score 0.93
+2025-05-12 15:51:44,814 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpjp4z3t6n.png
+2025-05-12 15:51:44,885 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 15:51:48,024 - INFO - SSIM score: 0.85
+2025-05-12 15:51:48,036 - INFO - Score for ../templates/images/2.png: 0.85
+2025-05-12 15:51:48,036 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 15:51:50,899 - INFO - SSIM score: 0.96
+2025-05-12 15:51:50,908 - INFO - Score for ../templates/images/3.png: 0.96
+2025-05-12 15:51:50,909 - INFO - Best match: ../templates/images/3.png with score 0.96
+2025-05-12 16:00:16,756 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpnlcre6cl.png
+2025-05-12 16:00:16,850 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:00:20,529 - INFO - SSIM score: 0.85
+2025-05-12 16:00:20,539 - INFO - Score for ../templates/images/2.png: 0.85
+2025-05-12 16:00:20,539 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:00:23,654 - INFO - SSIM score: 0.96
+2025-05-12 16:00:23,665 - INFO - Score for ../templates/images/3.png: 0.96
+2025-05-12 16:00:23,665 - INFO - Best match: ../templates/images/3.png with score 0.96
+2025-05-12 16:02:14,981 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpxzwhxh0a.png
+2025-05-12 16:02:15,159 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:02:18,332 - INFO - SSIM score: 1.00
+2025-05-12 16:02:18,341 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:02:18,341 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:02:21,240 - INFO - SSIM score: 0.85
+2025-05-12 16:02:21,251 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:02:21,251 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 16:03:12,454 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpcm22b8bx.png
+2025-05-12 16:03:12,512 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:03:15,871 - INFO - SSIM score: 0.85
+2025-05-12 16:03:15,885 - INFO - Score for ../templates/images/2.png: 0.85
+2025-05-12 16:03:15,885 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:03:19,096 - INFO - SSIM score: 0.96
+2025-05-12 16:03:19,106 - INFO - Score for ../templates/images/3.png: 0.96
+2025-05-12 16:03:19,106 - INFO - Best match: ../templates/images/3.png with score 0.96
+2025-05-12 16:07:17,035 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpgn6hgfgr.png
+2025-05-12 16:07:17,083 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:07:19,575 - INFO - SSIM score: 0.85
+2025-05-12 16:07:19,585 - INFO - Score for ../templates/images/2.png: 0.85
+2025-05-12 16:07:19,585 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:07:21,626 - INFO - SSIM score: 1.00
+2025-05-12 16:07:21,633 - INFO - Score for ../templates/images/3.png: 1.00
+2025-05-12 16:07:21,634 - INFO - Best match: ../templates/images/3.png with score 1.00
+2025-05-12 16:11:09,047 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmppuq0bbcj.png
+2025-05-12 16:11:09,105 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:11:12,451 - INFO - SSIM score: 0.85
+2025-05-12 16:11:12,464 - INFO - Score for ../templates/images/2.png: 0.85
+2025-05-12 16:11:12,464 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:11:15,969 - INFO - SSIM score: 0.96
+2025-05-12 16:11:15,983 - INFO - Score for ../templates/images/3.png: 0.96
+2025-05-12 16:11:15,984 - INFO - Best match: ../templates/images/3.png with score 0.96
+2025-05-12 16:38:50,855 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpp81xs82s.png
+2025-05-12 16:38:50,975 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:38:56,727 - INFO - SSIM score: 1.00
+2025-05-12 16:38:56,746 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:38:56,746 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:39:02,177 - INFO - SSIM score: 0.85
+2025-05-12 16:39:02,243 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:39:02,252 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 16:42:54,396 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpq7wuhupe.png
+2025-05-12 16:42:54,495 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:43:00,755 - INFO - SSIM score: 1.00
+2025-05-12 16:43:00,778 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:43:00,778 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:43:06,303 - INFO - SSIM score: 0.85
+2025-05-12 16:43:06,340 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:43:06,341 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 16:48:34,336 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp_vn2xob5.png
+2025-05-12 16:48:34,513 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:48:40,837 - INFO - SSIM score: 1.00
+2025-05-12 16:48:40,862 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:48:40,863 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:48:47,240 - INFO - SSIM score: 0.85
+2025-05-12 16:48:47,263 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:48:47,266 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 16:49:04,433 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpa4f9k3d8.png
+2025-05-12 16:49:04,527 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:49:10,454 - INFO - SSIM score: 1.00
+2025-05-12 16:49:10,472 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:49:10,472 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:49:16,295 - INFO - SSIM score: 0.85
+2025-05-12 16:49:16,318 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:49:16,319 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 16:51:38,497 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmps9i8i654.png
+2025-05-12 16:51:38,565 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:51:41,144 - INFO - SSIM score: 1.00
+2025-05-12 16:51:41,155 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:51:41,156 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:51:43,901 - INFO - SSIM score: 0.85
+2025-05-12 16:51:43,909 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:51:43,909 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 16:54:05,556 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpb46rgo7_.png
+2025-05-12 16:54:05,655 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:54:11,539 - INFO - SSIM score: 1.00
+2025-05-12 16:54:11,566 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:54:11,566 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:54:17,258 - INFO - SSIM score: 0.85
+2025-05-12 16:54:17,281 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:54:17,282 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 16:54:40,373 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmp7uuhe47y.png
+2025-05-12 16:54:40,483 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:54:46,206 - INFO - SSIM score: 1.00
+2025-05-12 16:54:46,225 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:54:46,225 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:54:51,941 - INFO - SSIM score: 0.85
+2025-05-12 16:54:51,966 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:54:51,967 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 16:57:35,738 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpzjkdls35.png
+2025-05-12 16:57:35,877 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 16:57:42,061 - INFO - SSIM score: 1.00
+2025-05-12 16:57:42,085 - INFO - Score for ../templates/images/2.png: 1.00
+2025-05-12 16:57:42,085 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 16:57:47,803 - INFO - SSIM score: 0.85
+2025-05-12 16:57:47,826 - INFO - Score for ../templates/images/3.png: 0.85
+2025-05-12 16:57:47,827 - INFO - Best match: ../templates/images/2.png with score 1.00
+2025-05-12 17:03:35,023 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpb9o16y9m.png
+2025-05-12 17:03:35,193 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 17:03:41,397 - INFO - SSIM score: 0.93
+2025-05-12 17:03:41,417 - INFO - Score for ../templates/images/2.png: 0.93
+2025-05-12 17:03:41,417 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 17:03:47,324 - INFO - SSIM score: 0.84
+2025-05-12 17:03:47,347 - INFO - Score for ../templates/images/3.png: 0.84
+2025-05-12 17:03:47,347 - INFO - Best match: ../templates/images/2.png with score 0.93
+2025-05-12 17:55:55,430 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpm7oszyq_.png
+2025-05-12 17:55:55,476 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 17:55:58,933 - INFO - SSIM score: 0.80
+2025-05-12 17:55:58,957 - INFO - Score for ../templates/images/2.png: 0.80
+2025-05-12 17:55:58,957 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 17:56:01,568 - INFO - SSIM score: 0.82
+2025-05-12 17:56:01,568 - INFO - Score for ../templates/images/3.png: 0.82
+2025-05-12 17:56:01,568 - INFO - Comparing input image with template: ../templates/images/4.png
+2025-05-12 17:56:04,470 - INFO - SSIM score: 1.00
+2025-05-12 17:56:04,486 - INFO - Score for ../templates/images/4.png: 1.00
+2025-05-12 17:56:04,486 - INFO - Best match: ../templates/images/4.png with score 1.00
+2025-05-12 17:57:13,219 - INFO - Processing input image: C:\Users\RAKSHI~1\AppData\Local\Temp\tmpmpm41562.png
+2025-05-12 17:57:13,273 - INFO - Comparing input image with template: ../templates/images/2.png
+2025-05-12 17:57:16,414 - INFO - SSIM score: 0.80
+2025-05-12 17:57:16,428 - INFO - Score for ../templates/images/2.png: 0.80
+2025-05-12 17:57:16,428 - INFO - Comparing input image with template: ../templates/images/3.png
+2025-05-12 17:57:19,266 - INFO - SSIM score: 0.82
+2025-05-12 17:57:19,275 - INFO - Score for ../templates/images/3.png: 0.82
+2025-05-12 17:57:19,275 - INFO - Comparing input image with template: ../templates/images/4.png
+2025-05-12 17:57:22,400 - INFO - SSIM score: 1.00
+2025-05-12 17:57:22,410 - INFO - Score for ../templates/images/4.png: 1.00
+2025-05-12 17:57:22,412 - INFO - Best match: ../templates/images/4.png with score 1.00

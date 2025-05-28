@@ -1,27 +1,46 @@
 {
-    "Date": {
-        "key":"Nr.",
-        "Distance": 50.4,
-        "Direction": "Right",
-        "Approach": "Top",
-        "Size": "single line"
-    },
     "IBAN": {
-        "Distance": 22.51,
+        "key": "IBAN",
+        "Distance": 463.77,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line"
+    },
+    "BIC/SWIFT": {
+        "key": "Swift",
+        "Distance": 481.15,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+        "regex": "^.{8}"
+    },
+    "DATE": {
+        "key": "Factuurdatum",
+        "Distance": 553.09,
         "Direction": "Right",
         "Approach": "Top",
         "Size": "single line"
     },
-    "Invoice Number": {
-        "Distance": 56.76,
+    "DUE DATE": {
+        "key": "Vervaldatum",
+        "Distance": 535.7,
         "Direction": "Right",
         "Approach": "Top",
         "Size": "single line"
     },
-    "Total Amount": {
-        "Distance": 95.59,
+    "TVA": {
+        "key": "Uw BTW nr",
+        "Distance": 595.2,
         "Direction": "Right",
         "Approach": "Top",
+        "Size": "single line",
+        "regex": "^.{11}"
+    },
+    "TOTAL AMOUNT": {
+        "key": "Totaal incl. BTW",
+        "Distance": 463.93,
+        "Direction": "Right",
+        "Approach": "Down",
         "Size": "single line"
     }
 }

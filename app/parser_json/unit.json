@@ -29,7 +29,7 @@
         "Size": "single line"
     },
     "TVA": {
-        "key":"Uw BTW nr",
+        "key":"nr",
         "Distance": 600.17,
         "Direction": "Right",
         "Approach": "Top",
@@ -37,7 +37,7 @@
         "regex": "^.{11}"
     },
     "TOTAL AMOUNT": {
-        "key":"Totaal incl. BTW",
+        "key":"BTW",
         "Distance": 466.24,
         "Direction": "Right",
         "Approach": "Down",
@@ -51,12 +51,12 @@
         "Size": "single line"
     },
     "FROM ADDRESS": {
-        "key":"Uitbreidingstraat 60-622600 BERCHEM - ANTWERPENBelgium",
+        "key":"Unit4 Business Software N.V., Uitbreidingstraat 60-62, 2600 BERCHEM - ANTWERPEN, Belgium",
         "Approach": "Top",
         "Size": "single line"
     },
     "TO ADDRESS": {
-        "key":"Chaussée de Mons",
+        "key":"Cardif Association de frais (Cardif Assurance Vie et Risques Divers), Chaussée de Mons 1424, 1070 Bruxelles, Belgium",
         "Approach": "Top",
         "Size": "single line"
     },

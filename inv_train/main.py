@@ -45,7 +45,7 @@ async def save_template(
         for k in final_json:
             logger.debug(f"  {k}: key = {final_json[k].get('key', None)}")
 
-        # ✅ Inject extracted text only if 'key' field is missing
+        #  Inject extracted text only if 'key' field is missing
         for item_key in final_json:
             normalized_key = f"{item_key.strip()} KEY"
             extracted_key = key_texts.get(normalized_key)

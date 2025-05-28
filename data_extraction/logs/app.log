@@ -317,3 +317,240 @@
 2025-04-23 18:42:59,998 - DEBUG - Multiple non-empty texts found. Using the second one.
 2025-04-23 18:43:00,003 - INFO - Extracted data saved to ../files/extract_key_value\cardif-lisbon.json.
 2025-04-23 18:43:00,115 - INFO - Processed file moved to ../files/processed\cardif-lisbon.pdf.
+2025-04-24 11:41:27,563 - INFO -  Listening to Redis queue: data-extraction-queue
+2025-04-24 11:43:06,122 - INFO -  Listening to Redis queue: data-extraction-queue
+2025-04-24 11:43:11,889 - INFO -  Received job from queue. Starting extraction...
+2025-04-24 11:43:11,889 - INFO - Starting extraction for invoice: ../sample_invoices/sncb/sncb-sa.pdf
+2025-04-24 11:43:11,894 - INFO - Extracting text for 'Date facture' from the PDF.
+2025-04-24 11:43:11,894 - INFO - Searching for 'Date facture' in PDF...
+2025-04-24 11:43:11,906 - DEBUG - Found 1 instances of 'Date facture' on page 0.
+2025-04-24 11:43:11,909 - DEBUG - Only one non-empty text found. Using it.
+2025-04-24 11:43:11,914 - INFO - Extracting text for 'Numéro' from the PDF.
+2025-04-24 11:43:11,915 - INFO - Searching for 'Numéro' in PDF...
+2025-04-24 11:43:11,924 - DEBUG - Found 4 instances of 'Numéro' on page 0.
+2025-04-24 11:43:11,931 - DEBUG - Multiple non-empty texts found. Using the second one.
+2025-04-24 11:43:11,933 - INFO - Extracting text for 'TOTAL TVA
+TOTAL TVA COMPRISE' from the PDF.
+2025-04-24 11:43:11,934 - INFO - Searching for 'TOTAL TVA
+TOTAL TVA COMPRISE' in PDF...
+2025-04-24 11:43:11,943 - DEBUG - Found 0 instances of 'TOTAL TVA
+TOTAL TVA COMPRISE' on page 0.
+2025-04-24 11:43:11,946 - WARNING - No valid text found for 'TOTAL TVA
+TOTAL TVA COMPRISE'.
+2025-04-24 11:43:11,948 - INFO - Extracted data saved to ../files/extract_key_value\sncb-sa.json.
+2025-04-24 11:43:12,062 - INFO - Processed file moved to ../files/processed\sncb-sa.pdf.
+2025-04-24 11:46:00,320 - INFO -  Listening to Redis queue: data-extraction-queue
+2025-04-24 11:46:11,823 - INFO -  Received job from queue. Starting extraction...
+2025-04-24 11:46:11,823 - INFO - Starting extraction for invoice: ../sample_invoices/sncb/sncb-sa.pdf
+2025-04-24 11:46:11,823 - INFO - Extracting text for 'Date facture' from the PDF.
+2025-04-24 11:46:11,823 - INFO - Searching for 'Date facture' in PDF...
+2025-04-24 11:46:11,837 - DEBUG - Found 1 instances of 'Date facture' on page 0.
+2025-04-24 11:46:11,841 - DEBUG - Only one non-empty text found. Using it.
+2025-04-24 11:46:11,845 - INFO - Extracting text for 'Numéro' from the PDF.
+2025-04-24 11:46:11,846 - INFO - Searching for 'Numéro' in PDF...
+2025-04-24 11:46:11,854 - DEBUG - Found 4 instances of 'Numéro' on page 0.
+2025-04-24 11:46:11,859 - DEBUG - Multiple non-empty texts found. Using the second one.
+2025-04-24 11:46:11,860 - INFO - Extracting text for 'TOTAL TVA COMPRISE' from the PDF.
+2025-04-24 11:46:11,861 - INFO - Searching for 'TOTAL TVA COMPRISE' in PDF...
+2025-04-24 11:46:11,868 - DEBUG - Found 1 instances of 'TOTAL TVA COMPRISE' on page 0.
+2025-04-24 11:46:11,871 - DEBUG - Only one non-empty text found. Using it.
+2025-04-24 11:46:11,873 - INFO - Extracted data saved to ../files/extract_key_value\sncb-sa.json.
+2025-04-24 11:46:11,992 - INFO - Processed file moved to ../files/processed\sncb-sa.pdf.
+2025-04-24 12:54:59,364 - INFO -  Received job from queue. Starting extraction...
+2025-04-24 12:54:59,373 - INFO - Starting extraction for invoice: ../sample_invoices/sncb/sncb-sa.pdf
+2025-04-24 12:54:59,375 - INFO - Extracting text for 'Date facture' from the PDF.
+2025-04-24 12:54:59,379 - INFO - Searching for 'Date facture' in PDF...
+2025-04-24 12:54:59,426 - DEBUG - Found 1 instances of 'Date facture' on page 0.
+2025-04-24 12:54:59,430 - DEBUG - Only one non-empty text found. Using it.
+2025-04-24 12:54:59,434 - INFO - Extracting text for 'Numéro' from the PDF.
+2025-04-24 12:54:59,435 - INFO - Searching for 'Numéro' in PDF...
+2025-04-24 12:54:59,442 - DEBUG - Found 4 instances of 'Numéro' on page 0.
+2025-04-24 12:54:59,451 - DEBUG - Multiple non-empty texts found. Using the second one.
+2025-04-24 12:54:59,452 - INFO - Extracting text for 'TOTAL TVA
+TOTAL TVA COMPRISE' from the PDF.
+2025-04-24 12:54:59,452 - INFO - Searching for 'TOTAL TVA
+TOTAL TVA COMPRISE' in PDF...
+2025-04-24 12:54:59,461 - DEBUG - Found 0 instances of 'TOTAL TVA
+TOTAL TVA COMPRISE' on page 0.
+2025-04-24 12:54:59,465 - WARNING - No valid text found for 'TOTAL TVA
+TOTAL TVA COMPRISE'.
+2025-04-24 12:54:59,470 - INFO - Extracted data saved to ../files/extract_key_value\sncb-sa.json.
+2025-04-24 12:54:59,582 - INFO - Processed file moved to ../files/processed\sncb-sa.pdf.
+2025-04-24 12:55:46,842 - INFO -  Received job from queue. Starting extraction...
+2025-04-24 12:55:46,844 - INFO - Starting extraction for invoice: ../sample_invoices/sncb/sncb-sa.pdf
+2025-04-24 12:55:46,845 - INFO - Extracting text for 'Date facture' from the PDF.
+2025-04-24 12:55:46,846 - INFO - Searching for 'Date facture' in PDF...
+2025-04-24 12:55:46,854 - DEBUG - Found 1 instances of 'Date facture' on page 0.
+2025-04-24 12:55:46,858 - DEBUG - Only one non-empty text found. Using it.
+2025-04-24 12:55:46,860 - INFO - Extracting text for 'Numéro' from the PDF.
+2025-04-24 12:55:46,862 - INFO - Searching for 'Numéro' in PDF...
+2025-04-24 12:55:46,874 - DEBUG - Found 4 instances of 'Numéro' on page 0.
+2025-04-24 12:55:46,883 - DEBUG - Multiple non-empty texts found. Using the second one.
+2025-04-24 12:55:46,885 - INFO - Extracting text for 'TOTAL TVA COMPRISE' from the PDF.
+2025-04-24 12:55:46,885 - INFO - Searching for 'TOTAL TVA COMPRISE' in PDF...
+2025-04-24 12:55:46,895 - DEBUG - Found 1 instances of 'TOTAL TVA COMPRISE' on page 0.
+2025-04-24 12:55:46,897 - DEBUG - Only one non-empty text found. Using it.
+2025-04-24 12:55:46,900 - INFO - Extracted data saved to ../files/extract_key_value\sncb-sa.json.
+2025-04-24 12:55:47,014 - INFO - Processed file moved to ../files/processed\sncb-sa.pdf.
+2025-04-24 13:55:00,360 - INFO -  Received job from queue. Starting extraction...
+2025-04-24 13:55:00,361 - INFO - Starting extraction for invoice: ../sample_invoices/sncb/sncb-sa.pdf
+2025-04-24 13:55:00,363 - INFO - Extracting text for 'Date facture' from the PDF.
+2025-04-24 13:55:00,364 - INFO - Searching for 'Date facture' in PDF...
+2025-04-24 13:55:00,379 - DEBUG - Found 1 instances of 'Date facture' on page 0.
+2025-04-24 13:55:00,386 - DEBUG - Only one non-empty text found. Using it.
+2025-04-24 13:55:00,387 - INFO - Extracting text for 'Numéro' from the PDF.
+2025-04-24 13:55:00,388 - INFO - Searching for 'Numéro' in PDF...
+2025-04-24 13:55:00,403 - DEBUG - Found 4 instances of 'Numéro' on page 0.
+2025-04-24 13:55:00,413 - DEBUG - Multiple non-empty texts found. Using the second one.
+2025-04-24 13:55:00,416 - INFO - Extracting text for 'TOTAL TVA COMPRISE' from the PDF.
+2025-04-24 13:55:00,417 - INFO - Searching for 'TOTAL TVA COMPRISE' in PDF...
+2025-04-24 13:55:00,427 - DEBUG - Found 1 instances of 'TOTAL TVA COMPRISE' on page 0.
+2025-04-24 13:55:00,429 - DEBUG - Only one non-empty text found. Using it.
+2025-04-24 13:55:00,435 - INFO - Extracted data saved to ../files/extract_key_value\sncb-sa.json.
+2025-04-24 13:55:00,548 - INFO - Processed file moved to ../files/processed\sncb-sa.pdf.
+2025-04-28 09:36:10,516 - INFO -  Listening to Redis queue: data-extraction-queue
+2025-04-28 11:28:40,198 - INFO -  Received job from queue. Starting extraction...
+2025-04-28 11:28:40,206 - INFO - Starting extraction for invoice: ../sample_invoices/unit4/unit_2.pdf
+2025-04-28 11:28:40,208 - INFO - Extracting text for 'IBAN' from the PDF.
+2025-04-28 11:28:40,210 - INFO - Searching for 'IBAN' in PDF...
+2025-04-28 11:28:40,264 - DEBUG - Found 1 instances of 'IBAN' on page 0.
+2025-04-28 11:28:40,278 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:28:40,283 - INFO - Extracting text for 'Swift' from the PDF.
+2025-04-28 11:28:40,283 - INFO - Searching for 'Swift' in PDF...
+2025-04-28 11:28:40,289 - DEBUG - Found 1 instances of 'Swift' on page 0.
+2025-04-28 11:28:40,292 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:28:40,297 - INFO - Extracting text for 'Factuurdatum' from the PDF.
+2025-04-28 11:28:40,298 - INFO - Searching for 'Factuurdatum' in PDF...
+2025-04-28 11:28:40,309 - DEBUG - Found 1 instances of 'Factuurdatum' on page 0.
+2025-04-28 11:28:40,311 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:28:40,312 - INFO - Extracting text for 'Vervaldatum' from the PDF.
+2025-04-28 11:28:40,313 - INFO - Searching for 'Vervaldatum' in PDF...
+2025-04-28 11:28:40,317 - DEBUG - Found 1 instances of 'Vervaldatum' on page 0.
+2025-04-28 11:28:40,319 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:28:40,320 - INFO - Extracting text for 'Uw BTW nr' from the PDF.
+2025-04-28 11:28:40,321 - INFO - Searching for 'Uw BTW nr' in PDF...
+2025-04-28 11:28:40,327 - DEBUG - Found 1 instances of 'Uw BTW nr' on page 0.
+2025-04-28 11:28:40,330 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:28:40,331 - INFO - Extracting text for 'Totaal incl. BTW' from the PDF.
+2025-04-28 11:28:40,331 - INFO - Searching for 'Totaal incl. BTW' in PDF...
+2025-04-28 11:28:40,336 - DEBUG - Found 1 instances of 'Totaal incl. BTW' on page 0.
+2025-04-28 11:28:40,339 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:28:40,340 - INFO - Extracting text for 'Factuurnummer' from the PDF.
+2025-04-28 11:28:40,340 - INFO - Searching for 'Factuurnummer' in PDF...
+2025-04-28 11:28:40,346 - DEBUG - Found 1 instances of 'Factuurnummer' on page 0.
+2025-04-28 11:28:40,348 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 11:28:40,349 - INFO - Extracting text for 'Uitbreidingstraat 60-622600 BERCHEM - ANTWERPENBelgium' from the PDF.
+2025-04-28 11:28:40,355 - INFO - Extracting text for 'ChaussÃ©e de Mons' from the PDF.
+2025-04-28 11:28:40,361 - INFO - Extracting text for 'Unit4 Business Software N.V.' from the PDF.
+2025-04-28 11:28:40,366 - INFO - Extracting text for 'Cardif Association de frais ' from the PDF.
+2025-04-28 11:28:40,374 - INFO - Extracted data saved to ../files/extract_key_value\unit_2.json.
+2025-04-28 11:28:40,479 - INFO - Processed file moved to ../files/processed\unit_2.pdf.
+2025-04-28 12:02:41,234 - INFO -  Listening to Redis queue: data-extraction-queue
+2025-04-28 12:02:46,828 - INFO -  Received job from queue. Starting extraction...
+2025-04-28 12:02:46,828 - INFO - Starting extraction for invoice: ../sample_invoices/unit4/unit_2.pdf
+2025-04-28 12:02:46,829 - INFO - Extracting text for 'IBAN' from the PDF.
+2025-04-28 12:02:46,829 - INFO - Searching for 'IBAN' in PDF...
+2025-04-28 12:02:46,836 - DEBUG - Found 1 instances of 'IBAN' on page 0.
+2025-04-28 12:02:46,840 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 12:02:46,843 - INFO - Extracting text for 'Swift' from the PDF.
+2025-04-28 12:02:46,849 - INFO - Searching for 'Swift' in PDF...
+2025-04-28 12:02:46,857 - DEBUG - Found 1 instances of 'Swift' on page 0.
+2025-04-28 12:02:46,859 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 12:02:46,861 - INFO - Extracting text for 'Factuurdatum' from the PDF.
+2025-04-28 12:02:46,862 - INFO - Searching for 'Factuurdatum' in PDF...
+2025-04-28 12:02:46,867 - DEBUG - Found 1 instances of 'Factuurdatum' on page 0.
+2025-04-28 12:02:46,868 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 12:02:46,869 - INFO - Extracting text for 'Vervaldatum' from the PDF.
+2025-04-28 12:02:46,870 - INFO - Searching for 'Vervaldatum' in PDF...
+2025-04-28 12:02:46,877 - DEBUG - Found 1 instances of 'Vervaldatum' on page 0.
+2025-04-28 12:02:46,879 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 12:02:46,880 - INFO - Extracting text for 'Uw BTW nr' from the PDF.
+2025-04-28 12:02:46,880 - INFO - Searching for 'Uw BTW nr' in PDF...
+2025-04-28 12:02:46,885 - DEBUG - Found 1 instances of 'Uw BTW nr' on page 0.
+2025-04-28 12:02:46,888 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 12:02:46,889 - INFO - Extracting text for 'Totaal incl. BTW' from the PDF.
+2025-04-28 12:02:46,890 - INFO - Searching for 'Totaal incl. BTW' in PDF...
+2025-04-28 12:02:46,895 - DEBUG - Found 1 instances of 'Totaal incl. BTW' on page 0.
+2025-04-28 12:02:46,898 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 12:02:46,898 - INFO - Extracting text for 'Factuurnummer' from the PDF.
+2025-04-28 12:02:46,899 - INFO - Searching for 'Factuurnummer' in PDF...
+2025-04-28 12:02:46,906 - DEBUG - Found 1 instances of 'Factuurnummer' on page 0.
+2025-04-28 12:02:46,909 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 12:02:46,910 - INFO - Extracting text for 'Uitbreidingstraat 60-622600 BERCHEM - ANTWERPENBelgium' from the PDF.
+2025-04-28 12:02:46,915 - INFO - Extracting text for 'ChaussÃ©e de Mons' from the PDF.
+2025-04-28 12:02:46,922 - INFO - Extracting text for 'Unit4 Business Software N.V.' from the PDF.
+2025-04-28 12:02:46,931 - INFO - Extracting text for 'Cardif Association de frais ' from the PDF.
+2025-04-28 12:02:46,949 - INFO - Extracted data saved to ../files/extract_key_value\unit_2.json.
+2025-04-28 12:02:47,056 - INFO - Processed file moved to ../files/processed\unit_2.pdf.
+2025-04-28 15:21:45,302 - INFO -  Received job from queue. Starting extraction...
+2025-04-28 15:21:45,310 - INFO - Starting extraction for invoice: ../sample_invoices/unit4/unit_2.pdf
+2025-04-28 15:21:45,311 - INFO - Extracting text for 'IBAN' from the PDF.
+2025-04-28 15:21:45,311 - INFO - Searching for 'IBAN' in PDF...
+2025-04-28 15:21:45,337 - DEBUG - Found 1 instances of 'IBAN' on page 0.
+2025-04-28 15:21:45,342 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:21:45,345 - INFO - Extracting text for 'Swift' from the PDF.
+2025-04-28 15:21:45,347 - INFO - Searching for 'Swift' in PDF...
+2025-04-28 15:21:45,352 - DEBUG - Found 1 instances of 'Swift' on page 0.
+2025-04-28 15:21:45,354 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:21:45,355 - INFO - Extracting text for 'Factuurdatum' from the PDF.
+2025-04-28 15:21:45,355 - INFO - Searching for 'Factuurdatum' in PDF...
+2025-04-28 15:21:45,360 - DEBUG - Found 1 instances of 'Factuurdatum' on page 0.
+2025-04-28 15:21:45,362 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:21:45,363 - INFO - Extracting text for 'Vervaldatum' from the PDF.
+2025-04-28 15:21:45,363 - INFO - Searching for 'Vervaldatum' in PDF...
+2025-04-28 15:21:45,369 - DEBUG - Found 1 instances of 'Vervaldatum' on page 0.
+2025-04-28 15:21:45,370 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:21:45,371 - INFO - Extracting text for 'Uw BTW nr' from the PDF.
+2025-04-28 15:21:45,372 - INFO - Searching for 'Uw BTW nr' in PDF...
+2025-04-28 15:21:45,375 - DEBUG - Found 1 instances of 'Uw BTW nr' on page 0.
+2025-04-28 15:21:45,377 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:21:45,378 - INFO - Extracting text for 'Totaal incl. BTW' from the PDF.
+2025-04-28 15:21:45,378 - INFO - Searching for 'Totaal incl. BTW' in PDF...
+2025-04-28 15:21:45,383 - DEBUG - Found 1 instances of 'Totaal incl. BTW' on page 0.
+2025-04-28 15:21:45,385 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:21:45,386 - INFO - Extracting text for 'Factuurnummer' from the PDF.
+2025-04-28 15:21:45,386 - INFO - Searching for 'Factuurnummer' in PDF...
+2025-04-28 15:21:45,389 - DEBUG - Found 1 instances of 'Factuurnummer' on page 0.
+2025-04-28 15:21:45,391 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:21:45,391 - INFO - Extracting text for 'Uitbreidingstraat 60-622600 BERCHEM - ANTWERPENBelgium' from the PDF.
+2025-04-28 15:21:45,395 - INFO - Extracting text for 'ChaussÃ©e de Mons' from the PDF.
+2025-04-28 15:21:45,400 - INFO - Extracting text for 'Unit4 Business Software N.V.' from the PDF.
+2025-04-28 15:21:45,403 - INFO - Extracting text for 'Cardif Association de frais ' from the PDF.
+2025-04-28 15:21:45,409 - INFO - Extracted data saved to ../files/extract_key_value\unit_2.json.
+2025-04-28 15:21:45,512 - INFO - Processed file moved to ../files/processed\unit_2.pdf.
+2025-04-28 15:22:32,865 - INFO -  Received job from queue. Starting extraction...
+2025-04-28 15:22:32,865 - INFO - Starting extraction for invoice: ../sample_invoices/unit4/unit_2.pdf
+2025-04-28 15:22:32,866 - INFO - Extracting text for 'IBAN' from the PDF.
+2025-04-28 15:22:32,866 - INFO - Searching for 'IBAN' in PDF...
+2025-04-28 15:22:32,870 - DEBUG - Found 1 instances of 'IBAN' on page 0.
+2025-04-28 15:22:32,872 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:22:32,873 - INFO - Extracting text for 'Swift' from the PDF.
+2025-04-28 15:22:32,873 - INFO - Searching for 'Swift' in PDF...
+2025-04-28 15:22:32,878 - DEBUG - Found 1 instances of 'Swift' on page 0.
+2025-04-28 15:22:32,881 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:22:32,881 - INFO - Extracting text for 'Factuurdatum' from the PDF.
+2025-04-28 15:22:32,882 - INFO - Searching for 'Factuurdatum' in PDF...
+2025-04-28 15:22:32,888 - DEBUG - Found 1 instances of 'Factuurdatum' on page 0.
+2025-04-28 15:22:32,889 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:22:32,890 - INFO - Extracting text for 'Vervaldatum' from the PDF.
+2025-04-28 15:22:32,890 - INFO - Searching for 'Vervaldatum' in PDF...
+2025-04-28 15:22:32,895 - DEBUG - Found 1 instances of 'Vervaldatum' on page 0.
+2025-04-28 15:22:32,897 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:22:32,897 - INFO - Extracting text for 'Uw BTW nr' from the PDF.
+2025-04-28 15:22:32,898 - INFO - Searching for 'Uw BTW nr' in PDF...
+2025-04-28 15:22:32,902 - DEBUG - Found 1 instances of 'Uw BTW nr' on page 0.
+2025-04-28 15:22:32,904 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:22:32,904 - INFO - Extracting text for 'Totaal incl. BTW' from the PDF.
+2025-04-28 15:22:32,904 - INFO - Searching for 'Totaal incl. BTW' in PDF...
+2025-04-28 15:22:32,909 - DEBUG - Found 1 instances of 'Totaal incl. BTW' on page 0.
+2025-04-28 15:22:32,911 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:22:32,911 - INFO - Extracting text for 'Factuurnummer' from the PDF.
+2025-04-28 15:22:32,912 - INFO - Searching for 'Factuurnummer' in PDF...
+2025-04-28 15:22:32,916 - DEBUG - Found 1 instances of 'Factuurnummer' on page 0.
+2025-04-28 15:22:32,917 - DEBUG - Only one non-empty text found. Using it.
+2025-04-28 15:22:32,918 - INFO - Extracting text for 'Uitbreidingstraat 60-622600 BERCHEM - ANTWERPENBelgium' from the PDF.
+2025-04-28 15:22:32,921 - INFO - Extracting text for 'ChaussÃ©e de Mons' from the PDF.
+2025-04-28 15:22:32,928 - INFO - Extracting text for 'Unit4 Business Software N.V.' from the PDF.
+2025-04-28 15:22:32,931 - INFO - Extracting text for 'Cardif Association de frais ' from the PDF.
+2025-04-28 15:22:32,939 - INFO - Extracted data saved to ../files/extract_key_value\unit_2.json.
+2025-04-28 15:22:33,046 - INFO - Processed file moved to ../files/processed\unit_2.pdf.
