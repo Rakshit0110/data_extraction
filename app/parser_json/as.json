@@ -1,0 +1,59 @@
+{
+    "key 1 and val 1": {
+        "key":"Facture N",
+        "size":"single line",
+        "Distance": 216.76,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 2 and val 2": {
+        "key":"Date de la facture",
+        "size":"single line",
+        "Distance": 316.21,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 3 and val 3": {
+        "key":"CARDIF Assurance Vie S.A.",
+        "size":"multi line",
+        "Distance": 75.81,
+        "Direction": "Down",
+        "Approach": "Top"
+    },
+    "key 4 and val 4": {
+        "key":"ANYSOFT S.A.",
+        "size":"multi line",
+        "Distance": 89.57,
+        "Direction": "Down",
+        "Approach": "Top"
+    },
+    "key 5 and val 5": {
+        "key":"Total TVAC",
+        "size":"single line",
+        "Distance": 336.69,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "key 6 and val 6": {
+        "key":"CELLLULL",
+        "size":"single line",
+        "Distance": 91.84,
+        "Direction": "Left",
+        "Approach": "Top"
+    },
+    "key 7 and val 7": {
+        "key":"Janvier 2023",
+        "size":"single line",
+        "Distance": 80.63,
+        "Direction": "Up",
+        "Approach": "Top"
+    },
+        "key 8 and val 8": {
+            "key":"ance:",
+            "size":"single line",
+            "Distance": 303.45,
+            "Direction": "Right",
+            "Approach": "Top"
+        }
+    
+}

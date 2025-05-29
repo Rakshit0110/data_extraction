@@ -1,0 +1,47 @@
+{
+    "INVOICE NO.": {
+        "key":"INVOICE N",
+        "size":"single line",
+        "Distance": 305.05,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "TVA": {
+        "key":"VAT Nr",
+        "size":"single line",
+        "Distance": 176.15,
+        "Direction": "Right",
+        "Approach": "Top"
+    },
+    "TOTAL AMOUNT": {
+        "key":"Total amount",
+        "size":"single line",
+        "Distance": 697.05,
+        "Direction": "Right",
+        "Approach": "Down"
+    },
+    "DUE DATE": {
+        "key":"Due date",
+        "size":"single line",
+        "Distance": 699.45,
+        "Direction": "Right",
+        "Approach": "Down"
+    },
+    "IBAN": {
+        "key":"Payable to the bank account",
+        "size":"single line",
+        "Distance": 694.4,
+        "Direction": "Right",
+        "Approach": "Down",
+        "regex":"^.{16}"
+    },
+    "BIC/SWIFT": {
+        "key":"BIC",
+        "size":"single line",
+        "Distance": 89.28,
+        "Direction": "Right",
+        "Approach": "Down",
+        "regex":"^.{8}"
+        
+    }
+}

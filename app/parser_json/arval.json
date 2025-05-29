@@ -1,0 +1,37 @@
+{
+    "key 1 and val 1": {
+        "key":"factuur",
+        "size":"single line",
+        "Distance": 171.26,
+        "Direction": "Right",
+        "Approach": "Down"
+    },
+    "key 2 and val 2": {
+        "key":"HRM",
+        "size":"multi line",
+        "Distance": 57.28,
+        "Direction": "Down",
+        "Approach": "Top"
+    },
+    "key 3 and val 3": {
+        "key":"389775",
+        "size":"single line",
+        "Distance": 161.34,
+        "Direction": "Left",
+        "Approach": "Down"
+    },
+    "key 4 and val 4": {
+        "key":"accountmanagement",
+        "size":"single line",
+        "Distance": 208.77,
+        "Direction": "Left",
+        "Approach": "Top"
+    },
+    "key 5 and val 5": {
+        "key":"(EUR)",
+        "size":"multi line",
+        "Distance": 85.66,
+        "Direction": "Up",
+        "Approach": "Top"
+    }
+}

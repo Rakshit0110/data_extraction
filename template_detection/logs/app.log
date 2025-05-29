@@ -1,0 +1,69 @@
+2025-04-22 13:11:54,699 - INFO - Compared ../sample_invoices/arval/arval.pdf and templates\cardif-lisbon.pdf. Similarity: 0.01
+2025-04-22 13:11:54,728 - INFO - Compared ../sample_invoices/arval/arval.pdf and templates\unit.pdf. Similarity: 0.01
+2025-04-22 13:11:54,728 - INFO - Moved ../sample_invoices/arval/arval.pdf to ../files/unprocessed
+2025-04-22 13:11:54,728 - INFO - No match found. Moved ../sample_invoices/arval/arval.pdf to unprocessed.
+2025-04-22 13:12:28,054 - INFO - Compared ../sample_invoices/cardif-lisbon/cardif-lisbon.pdf and templates\cardif-lisbon.pdf. Similarity: 1.00
+2025-04-22 13:12:28,068 - INFO - Compared ../sample_invoices/cardif-lisbon/cardif-lisbon.pdf and templates\unit.pdf. Similarity: 0.08
+2025-04-22 13:12:28,068 - INFO - Matched with cardif-lisbon.pdf, score: 1.00
+2025-04-22 13:12:28,094 - INFO - Job sent to data-extraction queue.
+2025-04-23 12:05:18,172 - INFO - Compared ../sample_invoices/unit4/unit.pdf and templates\cardif-lisbon.pdf. Similarity: 0.07
+2025-04-23 12:05:18,212 - INFO - Compared ../sample_invoices/unit4/unit.pdf and templates\unit.pdf. Similarity: 1.00
+2025-04-23 12:05:18,212 - INFO - Matched with unit.pdf, score: 1.00
+2025-04-23 12:05:18,222 - INFO - Job sent to data-extraction queue.
+2025-04-23 16:12:22,438 - INFO - Compared ../sample_invoices/unit4/unit_1.pdf and templates\cardif-lisbon.pdf. Similarity: 0.07
+2025-04-23 16:12:22,469 - INFO - Compared ../sample_invoices/unit4/unit_1.pdf and templates\unit.pdf. Similarity: 1.00
+2025-04-23 16:12:22,469 - INFO - Matched with unit.pdf, score: 1.00
+2025-04-23 16:12:22,494 - INFO - Job sent to data-extraction queue.
+2025-04-23 18:38:34,481 - INFO - Compared ../sample_invoices/cardif-lisbon/cardif-lisbon.pdf and ../templates/pdfs\cardif-lisbon.pdf. Similarity: 1.00
+2025-04-23 18:38:34,481 - INFO - Matched with cardif-lisbon.pdf, score: 1.00
+2025-04-23 18:38:34,502 - INFO - Job sent to data-extraction queue.
+2025-04-23 18:42:59,875 - INFO - Compared ../sample_invoices/cardif-lisbon/cardif-lisbon.pdf and ../templates/pdfs\cardif-lisbon.pdf. Similarity: 1.00
+2025-04-23 18:42:59,875 - INFO - Matched with cardif-lisbon.pdf, score: 1.00
+2025-04-23 18:42:59,902 - INFO - Job sent to data-extraction queue.
+2025-04-24 11:42:16,308 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\INV01_facture  1x signature.pdf. Similarity: 0.11
+2025-04-24 11:42:16,341 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\sncb-sa.pdf. Similarity: 1.00
+2025-04-24 11:42:16,341 - INFO - Matched with sncb-sa.pdf, score: 1.00
+2025-04-24 11:42:20,406 - ERROR - Failed to send job to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-04-24 11:43:11,858 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\INV01_facture  1x signature.pdf. Similarity: 0.11
+2025-04-24 11:43:11,873 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\sncb-sa.pdf. Similarity: 1.00
+2025-04-24 11:43:11,873 - INFO - Matched with sncb-sa.pdf, score: 1.00
+2025-04-24 11:43:11,889 - INFO - Job sent to data-extraction queue.
+2025-04-24 11:44:30,546 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\INV01_facture  1x signature.pdf. Similarity: 0.11
+2025-04-24 11:44:30,555 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\sncb-sa.pdf. Similarity: 1.00
+2025-04-24 11:44:30,555 - INFO - Matched with sncb-sa.pdf, score: 1.00
+2025-04-24 11:44:34,638 - ERROR - Failed to send job to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-04-24 11:44:53,513 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\INV01_facture  1x signature.pdf. Similarity: 0.11
+2025-04-24 11:44:53,525 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\sncb-sa.pdf. Similarity: 1.00
+2025-04-24 11:44:53,525 - INFO - Matched with sncb-sa.pdf, score: 1.00
+2025-04-24 11:44:57,588 - ERROR - Failed to send job to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-04-24 11:46:11,792 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\INV01_facture  1x signature.pdf. Similarity: 0.11
+2025-04-24 11:46:11,808 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\sncb-sa.pdf. Similarity: 1.00
+2025-04-24 11:46:11,808 - INFO - Matched with sncb-sa.pdf, score: 1.00
+2025-04-24 11:46:11,823 - INFO - Job sent to data-extraction queue.
+2025-04-24 12:54:59,234 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\sncb-sa.pdf. Similarity: 1.00
+2025-04-24 12:54:59,236 - INFO - Matched with sncb-sa.pdf, score: 1.00
+2025-04-24 12:54:59,280 - INFO - Job sent to data-extraction queue.
+2025-04-24 12:55:46,821 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\sncb-sa.pdf. Similarity: 1.00
+2025-04-24 12:55:46,822 - INFO - Matched with sncb-sa.pdf, score: 1.00
+2025-04-24 12:55:46,842 - INFO - Job sent to data-extraction queue.
+2025-04-24 13:55:00,330 - INFO - Compared ../sample_invoices/sncb/sncb-sa.pdf and ../templates/pdfs\sncb-sa.pdf. Similarity: 1.00
+2025-04-24 13:55:00,334 - INFO - Matched with sncb-sa.pdf, score: 1.00
+2025-04-24 13:55:00,349 - INFO - Job sent to data-extraction queue.
+2025-04-28 11:28:40,007 - INFO - Compared ../sample_invoices/unit4/unit_2.pdf and ../templates/pdfs\unit.pdf. Similarity: 0.90
+2025-04-28 11:28:40,008 - INFO - Matched with unit.pdf, score: 0.90
+2025-04-28 11:28:40,103 - INFO - Job sent to data-extraction queue.
+2025-04-28 11:31:23,695 - INFO - Compared ../sample_invoices/unit4/unit_2.pdf and ../templates/pdfs\unit.pdf. Similarity: 0.90
+2025-04-28 11:31:23,696 - INFO - Matched with unit.pdf, score: 0.90
+2025-04-28 11:31:23,723 - INFO - Job sent to data-extraction queue.
+2025-04-28 11:47:22,673 - INFO - Compared ../sample_invoices/unit4/unit_2.pdf and ../templates/pdfs\unit.pdf. Similarity: 0.90
+2025-04-28 11:47:22,673 - INFO - Matched with unit.pdf, score: 0.90
+2025-04-28 11:47:22,687 - INFO - Job sent to data-extraction queue.
+2025-04-28 12:02:46,803 - INFO - Compared ../sample_invoices/unit4/unit_2.pdf and ../templates/pdfs\unit.pdf. Similarity: 0.90
+2025-04-28 12:02:46,804 - INFO - Matched with unit.pdf, score: 0.90
+2025-04-28 12:02:46,828 - INFO - Job sent to data-extraction queue.
+2025-04-28 15:21:45,217 - INFO - Compared ../sample_invoices/unit4/unit_2.pdf and ../templates/pdfs\unit.pdf. Similarity: 0.90
+2025-04-28 15:21:45,219 - INFO - Matched with unit.pdf, score: 0.90
+2025-04-28 15:21:45,248 - INFO - Job sent to data-extraction queue.
+2025-04-28 15:22:32,851 - INFO - Compared ../sample_invoices/unit4/unit_2.pdf and ../templates/pdfs\unit.pdf. Similarity: 0.90
+2025-04-28 15:22:32,852 - INFO - Matched with unit.pdf, score: 0.90
+2025-04-28 15:22:32,864 - INFO - Job sent to data-extraction queue.

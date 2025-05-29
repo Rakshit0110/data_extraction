@@ -1,0 +1,73 @@
+{
+    "IBAN": {
+        "key":"IBAN:",
+        "Distance": 109.92,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "BIC/SWIFT": {
+        "key":"Swift:",
+        "Distance": 112.32,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line",
+        "regex": "^.{8}"
+    },
+    "DATE": {
+        "key":"Date:",
+        "Distance": 163.22,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "DUE DATE": {
+        "key":"Date Due",
+        "Distance": 221.86,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "TVA": {
+        "key":"TIN",
+        "Distance": 79.42,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line",
+        "regex": "^.{11}"
+    },
+    "TOTAL AMOUNT": {
+        "key":"TOTAL:",
+        "Distance": 311.27,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line"
+    },
+    "INVOICE NO.": {
+        "key":"Nr",
+        "Distance": 214.21,
+        "Direction": "Right",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "FROM ADDRESS": {
+        "key":"Cardif Support,",
+        "Approach": "Top",
+        "Size": "multi line"
+    },
+    "TO ADDRESS": {
+        "key":" Rue Montagne du Parc 8 boite 2",
+        "Approach": "Top",
+        "Size": "multi line"
+    },
+    "SUPPLIER NAME": {
+        "key":"BNP",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "CLIENT NAME": {
+        "key":"CARDIF ASSURANCE VIE",
+        "Approach": "Top",
+        "Size": "single line"
+    }
+}

@@ -1,0 +1,78 @@
+2025-04-24 10:02:41,993 INFO: Extracting keys from PDF.
+2025-04-24 10:02:42,114 WARNING: No text found for key: IBAN KEY, trying nearby blocks.
+2025-04-24 10:02:42,114 INFO: Extracted key 'IBAN KEY': 
+2025-04-24 10:02:42,133 INFO: Extracted key 'SWIFT KEY': mo
+2025-04-24 10:02:42,141 INFO: Extracted key 'Date KEY': Ou
+2025-04-24 10:02:42,152 INFO: Extracted key 'Invoice Number KEY': Brussel
+2025-04-24 10:02:42,154 INFO: Generating template data.
+2025-04-24 10:02:42,154 INFO: Processed relationships and generated final template.
+2025-04-24 10:02:42,154 WARNING: No extracted key text for: 'IBAN KEY'
+2025-04-24 10:02:42,154 INFO: Setting final_json['SWIFT']['key'] = 'mo'
+2025-04-24 10:02:42,154 INFO: Setting final_json['Date']['key'] = 'Ou'
+2025-04-24 10:02:42,154 INFO: Setting final_json['Invoice Number']['key'] = 'Brussel'
+2025-04-24 10:02:42,154 ERROR: Error in /save-template: 'key'
+2025-04-24 10:03:16,934 INFO: Extracting keys from PDF.
+2025-04-24 10:03:17,048 WARNING: No text found for key: Date KEY, trying nearby blocks.
+2025-04-24 10:03:17,048 INFO: Extracted key 'Date KEY': 
+2025-04-24 10:03:17,072 WARNING: No text found for key: IBAN KEY, trying nearby blocks.
+2025-04-24 10:03:17,081 INFO: Extracted key 'IBAN KEY': 
+2025-04-24 10:03:17,112 WARNING: No text found for key: Invoice Number KEY, trying nearby blocks.
+2025-04-24 10:03:17,121 INFO: Extracted key 'Invoice Number KEY': 
+2025-04-24 10:03:17,121 INFO: Generating template data.
+2025-04-24 10:03:17,121 INFO: Processed relationships and generated final template.
+2025-04-24 10:03:17,121 WARNING: No extracted key text for: 'Date KEY'
+2025-04-24 10:03:17,121 WARNING: No extracted key text for: 'IBAN KEY'
+2025-04-24 10:03:17,121 WARNING: No extracted key text for: 'Invoice Number KEY'
+2025-04-24 10:03:17,121 ERROR: Error in /save-template: 'key'
+2025-04-24 10:04:10,232 INFO: Extracting keys from PDF.
+2025-04-24 10:04:10,299 INFO: Extracted key 'Date KEY': Date:
+2025-04-24 10:04:10,325 INFO: Extracted key 'IBAN KEY': IBAN:
+2025-04-24 10:04:10,347 INFO: Extracted key 'Invoice Number KEY': Nr.
+2025-04-24 10:04:10,347 INFO: Generating template data.
+2025-04-24 10:04:10,347 INFO: Processed relationships and generated final template.
+2025-04-24 10:04:10,347 INFO: Setting final_json['Date']['key'] = 'Date:'
+2025-04-24 10:04:10,347 INFO: Setting final_json['IBAN']['key'] = 'IBAN:'
+2025-04-24 10:04:10,347 INFO: Setting final_json['Invoice Number']['key'] = 'Nr.'
+2025-04-24 10:04:10,347 INFO: Saving outputs.
+2025-04-24 11:34:25,528 INFO: Extracting keys from PDF.
+2025-04-24 11:34:25,604 WARNING: No text found for key: IBAN KEY, trying nearby blocks.
+2025-04-24 11:34:25,607 INFO: Extracted key 'IBAN KEY': 
+2025-04-24 11:34:25,608 INFO: Generating template data.
+2025-04-24 11:34:25,610 INFO: Processed relationships and generated final template.
+2025-04-24 11:34:25,610 INFO: Saving outputs.
+2025-04-24 11:40:44,255 INFO: Extracting keys from PDF.
+2025-04-24 11:40:44,338 INFO: Extracted key 'Date KEY': Date facture
+2025-04-24 11:40:44,371 INFO: Extracted key 'Invoice Number KEY': Numéro
+2025-04-24 11:40:44,411 INFO: Extracted key 'Total Amount KEY': TOTAL TVA
+TOTAL TVA COMPRISE
+2025-04-24 11:40:44,412 INFO: Generating template data.
+2025-04-24 11:40:44,416 INFO: Processed relationships and generated final template.
+2025-04-24 11:40:44,416 INFO: Setting final_json['Date']['key'] = 'Date facture'
+2025-04-24 11:40:44,416 INFO: Setting final_json['Invoice Number']['key'] = 'Numéro'
+2025-04-24 11:40:44,416 INFO: Setting final_json['Total Amount']['key'] = 'TOTAL TVA
+TOTAL TVA COMPRISE'
+2025-04-24 11:40:44,416 INFO: Saving outputs.
+2025-04-24 12:54:33,027 INFO: Extracting keys from PDF.
+2025-04-24 12:54:33,144 INFO: Extracted key 'Date KEY': Date facture
+2025-04-24 12:54:33,168 INFO: Extracted key 'Invoice Number KEY': Numéro
+2025-04-24 12:54:33,185 INFO: Extracted key 'Total Amount KEY': TOTAL TVA
+TOTAL TVA COMPRISE
+2025-04-24 12:54:33,187 INFO: Generating template data.
+2025-04-24 12:54:33,189 INFO: Processed relationships and generated final template.
+2025-04-24 12:54:33,189 INFO: Setting final_json['Date']['key'] = 'Date facture'
+2025-04-24 12:54:33,189 INFO: Setting final_json['Invoice Number']['key'] = 'Numéro'
+2025-04-24 12:54:33,189 INFO: Setting final_json['Total Amount']['key'] = 'TOTAL TVA
+TOTAL TVA COMPRISE'
+2025-04-24 12:54:33,189 INFO: Saving outputs.
+2025-04-24 13:54:33,576 INFO: Extracting keys from PDF.
+2025-04-24 13:54:33,633 INFO: Extracted key 'Date KEY': Date facture
+2025-04-24 13:54:33,656 INFO: Extracted key 'Invoice Number KEY': Numéro
+2025-04-24 13:54:33,688 INFO: Extracted key 'Total Amount KEY': TOTAL TVA
+TOTAL TVA COMPRISE
+2025-04-24 13:54:33,689 INFO: Generating template data.
+2025-04-24 13:54:33,689 INFO: Processed relationships and generated final template.
+2025-04-24 13:54:33,691 INFO: Setting final_json['Date']['key'] = 'Date facture'
+2025-04-24 13:54:33,691 INFO: Setting final_json['Invoice Number']['key'] = 'Numéro'
+2025-04-24 13:54:33,691 INFO: Setting final_json['Total Amount']['key'] = 'TOTAL TVA
+TOTAL TVA COMPRISE'
+2025-04-24 13:54:33,691 INFO: Saving outputs.

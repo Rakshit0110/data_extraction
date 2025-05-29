@@ -1,0 +1,421 @@
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+                <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+                <cbc:ID>F/2022/28905</cbc:ID>
+                <cbc:IssueDate>2022-10-31</cbc:IssueDate>
+                <cbc:InvoiceTypeCode>380</cbc:InvoiceTypeCode>
+                
+                <cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+                <cac:AdditionalDocumentReference>
+                            <cbc:ID>efff_BE0879749715_F202228905.pdf</cbc:ID>
+                            
+                        </cac:AdditionalDocumentReference><cac:AccountingSupplierParty>
+            <cac:Party>
+                <cbc:WebsiteURI>https://www.fruitsnacks.be</cbc:WebsiteURI>
+                <cac:PartyName>
+                    <cbc:Name>Fruitsnacks BVBA</cbc:Name>
+                </cac:PartyName>
+                <cac:Language>
+                    <cbc:LocaleCode>nl_BE</cbc:LocaleCode>
+                </cac:Language>
+                <cac:PostalAddress>
+                    <cbc:StreetName>Mierhoopweg 34</cbc:StreetName>
+                    
+                    <cbc:CityName>NIEUWERKERKEN</cbc:CityName>
+                    <cbc:PostalZone>3850</cbc:PostalZone>
+                    <cbc:CountrySubentity>Limburg</cbc:CountrySubentity>
+                    <cbc:CountrySubentityCode>vli</cbc:CountrySubentityCode>
+                    <cac:Country>
+                        <cbc:IdentificationCode>BE</cbc:IdentificationCode>
+                        <cbc:Name>Belgium</cbc:Name>
+                    </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyTaxScheme>
+                    <cbc:RegistrationName>Fruitsnacks BVBA</cbc:RegistrationName>
+                    <cbc:CompanyID>BE0879749715</cbc:CompanyID>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:PartyTaxScheme>
+                <cac:Contact>
+                    <cbc:Name>Fruitsnacks BVBA</cbc:Name>
+                    <cbc:Telephone>+32 11 695 280</cbc:Telephone>
+                    <cbc:ElectronicMail>fruit@fruitsnacks.be</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:Party>
+        </cac:AccountingSupplierParty>
+                <cac:AccountingCustomerParty>
+            <cac:Party>
+                
+                <cac:PartyName>
+                    <cbc:Name>Cardif Assurance Vie</cbc:Name>
+                </cac:PartyName>
+                <cac:Language>
+                    <cbc:LocaleCode>nl_BE</cbc:LocaleCode>
+                </cac:Language>
+                <cac:PostalAddress>
+                    <cbc:StreetName>Chauss&#233;e de Mons 1424</cbc:StreetName>
+                    
+                    <cbc:CityName>ANDERLECHT</cbc:CityName>
+                    <cbc:PostalZone>1070</cbc:PostalZone>
+                    
+                    
+                    <cac:Country>
+                        <cbc:IdentificationCode>BE</cbc:IdentificationCode>
+                        <cbc:Name>Belgium</cbc:Name>
+                    </cac:Country>
+                </cac:PostalAddress>
+                <cac:PartyTaxScheme>
+                    <cbc:RegistrationName>Cardif Assurance Vie</cbc:RegistrationName>
+                    <cbc:CompanyID>BE0435018274</cbc:CompanyID>
+                    <cac:TaxScheme>
+                        <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">VAT</cbc:ID>
+                    </cac:TaxScheme>
+                </cac:PartyTaxScheme>
+                <cac:Contact>
+                    <cbc:Name>Cardif Assurance Vie</cbc:Name>
+                    <cbc:Telephone>+32 2 528 50 50</cbc:Telephone>
+                    
+                </cac:Contact>
+            </cac:Party>
+        </cac:AccountingCustomerParty>
+                <cac:PaymentMeans>
+                    <cbc:PaymentMeansCode listID="UN/ECE 4461">31</cbc:PaymentMeansCode>
+                    <cbc:PaymentDueDate>2022-11-16</cbc:PaymentDueDate>
+                    <cbc:InstructionID>+++000/0181/56881+++</cbc:InstructionID>
+                    
+                </cac:PaymentMeans>
+                <cac:PaymentTerms>
+                    <cbc:Note>15 Days</cbc:Note>
+                </cac:PaymentTerms>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">55.37</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:LegalMonetaryTotal>
+                    <cbc:LineExtensionAmount currencyID="EUR">922.80</cbc:LineExtensionAmount>
+                    <cbc:TaxExclusiveAmount currencyID="EUR">922.80</cbc:TaxExclusiveAmount>
+                    <cbc:TaxInclusiveAmount currencyID="EUR">978.17</cbc:TaxInclusiveAmount>
+                    <cbc:PrepaidAmount currencyID="EUR">0.00</cbc:PrepaidAmount>
+                    <cbc:PayableAmount currencyID="EUR">978.17</cbc:PayableAmount>
+                </cac:LegalMonetaryTotal>
+                
+            <cac:InvoiceLine>
+                <cbc:ID>1147486</cbc:ID>
+                
+                <cbc:InvoicedQuantity>3.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">115.35</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">6.92</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[SMFBIO1] Small Fruit Snack (BIO, Weekly), - 5 kg, , TYP: BIO, FREQUENZ: Weekly</cbc:Description>
+                    <cbc:Name>Small Fruit Snack</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>SMFBIO1</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">38.45</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147487</cbc:ID>
+                
+                <cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[LEV001] Free delivery charges, Delivery following agreement</cbc:Description>
+                    <cbc:Name>Free delivery charges</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>LEV001</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147488</cbc:ID>
+                
+                <cbc:InvoicedQuantity>3.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">115.35</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">6.92</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[SMFBIO1] Small Fruit Snack (BIO, Weekly), - 5 kg, , TYP: BIO, FREQUENZ: Weekly</cbc:Description>
+                    <cbc:Name>Small Fruit Snack</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>SMFBIO1</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">38.45</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147489</cbc:ID>
+                
+                <cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[LEV001] Free delivery charges, Delivery following agreement</cbc:Description>
+                    <cbc:Name>Free delivery charges</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>LEV001</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147490</cbc:ID>
+                
+                <cbc:InvoicedQuantity>3.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">115.35</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">6.92</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[SMFBIO1] Small Fruit Snack (BIO, Weekly), - 5 kg, , TYP: BIO, FREQUENZ: Weekly</cbc:Description>
+                    <cbc:Name>Small Fruit Snack</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>SMFBIO1</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">38.45</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147491</cbc:ID>
+                
+                <cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[LEV001] Free delivery charges, Delivery following agreement</cbc:Description>
+                    <cbc:Name>Free delivery charges</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>LEV001</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147492</cbc:ID>
+                
+                <cbc:InvoicedQuantity>3.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">115.35</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">6.92</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[SMFBIO1] Small Fruit Snack (BIO, Weekly), - 5 kg, , TYP: BIO, FREQUENZ: Weekly</cbc:Description>
+                    <cbc:Name>Small Fruit Snack</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>SMFBIO1</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">38.45</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147493</cbc:ID>
+                
+                <cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[LEV001] Free delivery charges, Delivery following agreement</cbc:Description>
+                    <cbc:Name>Free delivery charges</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>LEV001</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147494</cbc:ID>
+                
+                <cbc:InvoicedQuantity>3.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">115.35</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">6.92</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[SMFBIO1] Small Fruit Snack (BIO, Weekly), - 5 kg, , TYP: BIO, FREQUENZ: Weekly</cbc:Description>
+                    <cbc:Name>Small Fruit Snack</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>SMFBIO1</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">38.45</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147495</cbc:ID>
+                
+                <cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[LEV001] Free delivery charges, Delivery following agreement</cbc:Description>
+                    <cbc:Name>Free delivery charges</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>LEV001</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147496</cbc:ID>
+                
+                <cbc:InvoicedQuantity>3.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">115.35</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">6.92</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[SMFBIO1] Small Fruit Snack (BIO, Weekly), - 5 kg, , TYP: BIO, FREQUENZ: Weekly</cbc:Description>
+                    <cbc:Name>Small Fruit Snack</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>SMFBIO1</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">38.45</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147497</cbc:ID>
+                
+                <cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[LEV001] Free delivery charges, Delivery following agreement</cbc:Description>
+                    <cbc:Name>Free delivery charges</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>LEV001</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147498</cbc:ID>
+                
+                <cbc:InvoicedQuantity>3.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">115.35</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">6.92</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[SMFBIO1] Small Fruit Snack (BIO, Weekly), - 5 kg, , TYP: BIO, FREQUENZ: Weekly</cbc:Description>
+                    <cbc:Name>Small Fruit Snack</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>SMFBIO1</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">38.45</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147499</cbc:ID>
+                
+                <cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[LEV001] Free delivery charges, Delivery following agreement</cbc:Description>
+                    <cbc:Name>Free delivery charges</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>LEV001</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147500</cbc:ID>
+                
+                <cbc:InvoicedQuantity>3.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">115.35</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">6.92</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[SMFBIO1] Small Fruit Snack (BIO, Weekly), - 5 kg, , TYP: BIO, FREQUENZ: Weekly</cbc:Description>
+                    <cbc:Name>Small Fruit Snack</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>SMFBIO1</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">38.45</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            <cac:InvoiceLine>
+                <cbc:ID>1147501</cbc:ID>
+                
+                <cbc:InvoicedQuantity>1.0</cbc:InvoicedQuantity>
+                <cbc:LineExtensionAmount currencyID="EUR">0.00</cbc:LineExtensionAmount>
+                <cac:TaxTotal>
+                    <cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+                </cac:TaxTotal>
+                <cac:Item>
+                    <cbc:Description>[LEV001] Free delivery charges, Delivery following agreement</cbc:Description>
+                    <cbc:Name>Free delivery charges</cbc:Name>
+                    <cac:SellersItemIdentification>
+                        <cbc:ID>LEV001</cbc:ID>
+                    </cac:SellersItemIdentification>
+                </cac:Item>
+                <cac:Price>
+                    <cbc:PriceAmount currencyID="EUR">0.00</cbc:PriceAmount>
+                </cac:Price>
+            </cac:InvoiceLine>
+        
+            </Invoice>

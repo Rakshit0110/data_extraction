@@ -1,0 +1,65 @@
+{
+    "IBAN": {
+        "key":"IBAN :",
+        "Distance": 101.72,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+         "regex": "^.{16}"
+    },
+    "BIC/SWIFT": {
+        "key":"BIC:",
+        "Distance": 81.87,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+        "regex": "^.{8}"
+    },
+    "DATE": {
+        "key":"Date facture",
+        "Distance": 62.23,
+        "Direction": "Down",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "DUE DATE": {
+        "key":"Date d'échéance",
+        "Distance": 260.63,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+         "regex": "^.{10}"
+    },
+    "TVA": {
+        "key":"TOTAL TVA",
+        "Distance": 1736.7,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line",
+        "regex": "^.{11}"
+    },
+    "TOTAL AMOUNT": {
+        "key":"TOTAL TVA COMPRISE",
+        "Distance": 1716.85,
+        "Direction": "Right",
+        "Approach": "Down",
+        "Size": "single line"
+    },
+    "INVOICE NO.": {
+        "key":"Numéro",
+        "Distance": 21.87,
+        "Direction": "Down",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "SUPPLIER NAME": {
+        "key":"SNCEB SA",
+        "Approach": "Top",
+        "Size": "single line"
+    },
+    "CLIENT NAME": {
+        "key":"CARDIF ASSURANCE VIESUCCURSALE BELGE",
+        "Approach": "Top",
+        "Size": "single line"
+    }
+}
